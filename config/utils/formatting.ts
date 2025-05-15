@@ -1,4 +1,4 @@
-import type { Config as EternumGlobalConfig } from "@bibliothecadao/types";
+import type { Config as EternumGlobalConfig } from "@frontboat/types";
 
 export const shortHexAddress = (address: string | undefined | null): string => {
   if (!address) return "Not set";

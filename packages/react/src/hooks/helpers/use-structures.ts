@@ -1,7 +1,7 @@
-import { getEntityIdFromKeys, getStructure } from "@bibliothecadao/eternum";
-import { ContractAddress, Position, Structure } from "@bibliothecadao/types";
 import { useComponentValue, useEntityQuery } from "@dojoengine/react";
 import { HasValue } from "@dojoengine/recs";
+import { getEntityIdFromKeys, getStructure } from "@frontboat/eternum";
+import { ContractAddress, Position, Structure } from "@frontboat/types";
 import { useMemo } from "react";
 import { useDojo } from "../context";
 

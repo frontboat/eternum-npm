@@ -1,4 +1,4 @@
-import { RealmInfo, ResourcesIds } from "@bibliothecadao/types";
+import { RealmInfo, ResourcesIds } from "@frontboat/types";
 import { LaborBuilding } from "../model/types";
 import { LaborProductionDrawer } from "./labor-production-drawer";
 import { ResourcesProductionDrawer } from "./resources-production-drawer";

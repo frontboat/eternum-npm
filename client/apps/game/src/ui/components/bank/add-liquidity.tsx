@@ -5,18 +5,18 @@ import { ResourceBar } from "@/ui/components/bank/resource-bar";
 import Button from "@/ui/elements/button";
 import { ResourceCost } from "@/ui/elements/resource-cost";
 import { getBlockTimestamp } from "@/utils/timestamp";
-import {
-  divideByPrecision,
-  getBalance,
-  getClosestBank,
-  getEntityIdFromKeys,
-  isMilitaryResource,
-  MarketManager,
-  multiplyByPrecision,
-} from "@bibliothecadao/eternum";
-import { ContractAddress, ID, resources, ResourcesIds, StructureType } from "@bibliothecadao/types";
-import { useDojo, usePlayerStructures } from "@bibliothecadao/react";
 import { getComponentValue } from "@dojoengine/recs";
+import {
+    divideByPrecision,
+    getBalance,
+    getClosestBank,
+    getEntityIdFromKeys,
+    isMilitaryResource,
+    MarketManager,
+    multiplyByPrecision,
+} from "@frontboat/eternum";
+import { useDojo, usePlayerStructures } from "@frontboat/react";
+import { ContractAddress, ID, resources, ResourcesIds, StructureType } from "@frontboat/types";
 import { useCallback, useEffect, useMemo, useState } from "react";
 
 const AddLiquidity = ({ entityId, listResourceId }: { entityId: ID; listResourceId: number }) => {

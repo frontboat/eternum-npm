@@ -6,8 +6,8 @@ import "./index.css";
 // Import the generated route tree
 //import { ArkProvider } from '@ark-project/react';
 
-import { setup } from "@bibliothecadao/dojo";
-import { ClientConfigManager } from "@bibliothecadao/eternum";
+import { setup } from "@frontboat/dojo";
+import { ClientConfigManager } from "@frontboat/eternum";
 import { NuqsAdapter } from "nuqs/adapters/react";
 import { dojoConfig } from "../dojoConfig";
 import { StarknetProvider } from "./components/providers/starknet-provider";

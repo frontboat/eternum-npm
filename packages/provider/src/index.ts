@@ -4,8 +4,8 @@
  * @param katana - The katana manifest containing contract addresses and ABIs
  * @param url - Optional RPC URL for the provider
  */
-import * as SystemProps from "@bibliothecadao/types";
 import { DojoCall, DojoProvider } from "@dojoengine/core";
+import * as SystemProps from "@frontboat/types";
 import EventEmitter from "eventemitter3";
 import { Account, AccountInterface, AllowArray, Call, CallData, Result, uint256 } from "starknet";
 import { TransactionType } from "./types";

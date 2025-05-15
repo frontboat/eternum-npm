@@ -1,6 +1,6 @@
-import { EternumProvider } from "@bibliothecadao/provider";
-import type { Config as EternumConfig } from "@bibliothecadao/types";
 import { getGameManifest } from "@contracts";
+import { EternumProvider } from "@frontboat/provider";
+import type { Config as EternumConfig } from "@frontboat/types";
 import chalk from "chalk";
 import { nodeReadConfig } from "deployer/config";
 import { Account } from "starknet";

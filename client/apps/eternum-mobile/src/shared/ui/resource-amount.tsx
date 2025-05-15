@@ -1,5 +1,5 @@
 import { cn } from "@/shared/lib/utils";
-import { findResourceById } from "@bibliothecadao/types";
+import { findResourceById } from "@frontboat/types";
 import { ResourceIcon } from "./resource-icon";
 
 interface ResourceAmountProps {

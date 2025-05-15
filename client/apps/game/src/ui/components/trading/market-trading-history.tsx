@@ -3,11 +3,11 @@ import { EventType, TradeHistoryEvent, TradeHistoryRowHeader } from "@/ui/compon
 import { Checkbox } from "@/ui/elements/checkbox";
 import { LoadingAnimation } from "@/ui/elements/loading-animation";
 import { SelectResource } from "@/ui/elements/select-resource";
-import { ContractAddress, ID, Resource, ResourcesIds, world } from "@bibliothecadao/types";
-import { getTradeResources } from "@bibliothecadao/eternum";
-import { useDojo } from "@bibliothecadao/react";
 import { defineComponentSystem, getComponentValue, isComponentUpdate } from "@dojoengine/recs";
 import { getEntityIdFromKeys } from "@dojoengine/utils";
+import { getTradeResources } from "@frontboat/eternum";
+import { useDojo } from "@frontboat/react";
+import { ContractAddress, ID, Resource, ResourcesIds, world } from "@frontboat/types";
 import { memo, useEffect, useMemo, useState } from "react";
 
 const MAX_TRADES = 100;

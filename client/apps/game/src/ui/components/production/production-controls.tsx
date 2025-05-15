@@ -1,4 +1,4 @@
-import { RealmInfo, ResourcesIds } from "@bibliothecadao/types";
+import { RealmInfo, ResourcesIds } from "@frontboat/types";
 import { useState } from "react";
 import { LaborProductionControls } from "./labor-production-controls";
 import { ResourceProductionControls } from "./resource-production-controls";

@@ -1,10 +1,10 @@
 import {
-  type HyperstructureResourceCostMinMax,
-  type ResourceCost,
-  type ResourceCostMinMax,
-  ResourceTier,
-  ResourcesIds,
-} from "@bibliothecadao/types";
+    type HyperstructureResourceCostMinMax,
+    type ResourceCost,
+    type ResourceCostMinMax,
+    ResourceTier,
+    ResourcesIds,
+} from "@frontboat/types";
 
 export const HYPERSTRUCTURE_CREATION_COSTS: ResourceCostMinMax[] = [
   // this is actually fragments min max since lords and fragments are the same tier and we don't take into account lords

@@ -7,14 +7,14 @@ import { Buildings } from "@/ui/modules/entity-details/realm/buildings";
 import { Castle } from "@/ui/modules/entity-details/realm/castle";
 import { copyPlayerAddressToClipboard, displayAddress } from "@/ui/utils/utils";
 import {
-  formatTime,
-  getStructure,
-  getStructureImmunityTimer,
-  isStructureImmune,
-  toHexString,
-} from "@bibliothecadao/eternum";
-import { useDojo } from "@bibliothecadao/react";
-import { ContractAddress, StructureType } from "@bibliothecadao/types";
+    formatTime,
+    getStructure,
+    getStructureImmunityTimer,
+    isStructureImmune,
+    toHexString,
+} from "@frontboat/eternum";
+import { useDojo } from "@frontboat/react";
+import { ContractAddress, StructureType } from "@frontboat/types";
 import { useMemo, useState } from "react";
 import { TransferRealm } from "./transfer-realm";
 

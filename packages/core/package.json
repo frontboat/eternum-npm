@@ -1,5 +1,5 @@
 {
-  "name": "@bibliothecadao/eternum",
+  "name": "@frontboat/eternum",
   "version": "0.2.0",
   "description": "Eternum SDK for Starknet & Dojo",
   "license": "MIT",
@@ -22,9 +22,9 @@
   "dependencies": {
     "@latticexyz/utils": "^2.0.0-next.12",
     "@dojoengine/core": "catalog:",
-    "@bibliothecadao/dojo": "workspace:*",
-    "@bibliothecadao/provider": "workspace:*",
-    "@bibliothecadao/types": "workspace:*",
+    "@frontboat/dojo": "workspace:*",
+    "@frontboat/provider": "workspace:*",
+    "@frontboat/types": "workspace:*",
     "@scure/starknet": "^1.1.0",
     "chalk": "^5.4.1",
     "eventemitter3": "^5.0.1",

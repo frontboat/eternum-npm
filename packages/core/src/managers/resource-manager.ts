@@ -1,7 +1,7 @@
 // import { getEntityIdFromKeys, gramToKg, multiplyByPrecision } from "@/ui/utils/utils";
-import { BuildingType, ClientComponents, ID, Resource, RESOURCE_PRECISION, ResourcesIds } from "@bibliothecadao/types";
 import { ComponentValue, getComponentValue } from "@dojoengine/recs";
 import { getEntityIdFromKeys } from "@dojoengine/utils";
+import { BuildingType, ClientComponents, ID, Resource, RESOURCE_PRECISION, ResourcesIds } from "@frontboat/types";
 import { uuid } from "@latticexyz/utils";
 import { getBuildingCount, gramToKg, kgToGram, multiplyByPrecision } from "../utils";
 import { configManager } from "./config-manager";

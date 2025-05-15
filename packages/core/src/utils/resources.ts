@@ -1,3 +1,5 @@
+import { getComponentValue } from "@dojoengine/recs";
+import { getEntityIdFromKeys } from "@dojoengine/utils";
 import {
   type ClientComponents,
   type HyperstructureResourceCostMinMax,
@@ -10,9 +12,7 @@ import {
   ResourcesIds,
   StructureType,
   resources,
-} from "@bibliothecadao/types";
-import { getComponentValue } from "@dojoengine/recs";
-import { getEntityIdFromKeys } from "@dojoengine/utils";
+} from "@frontboat/types";
 import { ResourceManager } from "../managers";
 import { unpackValue } from "./packed-data";
 

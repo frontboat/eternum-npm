@@ -4,15 +4,15 @@ import { Button } from "@/shared/ui/button";
 import { Drawer, DrawerContent, DrawerDescription, DrawerHeader, DrawerTitle } from "@/shared/ui/drawer";
 import { ResourceIcon } from "@/shared/ui/resource-icon";
 import {
-  calculateDonkeysNeeded,
-  configManager,
-  divideByPrecision,
-  getBalance,
-  getTotalResourceWeightKg,
-} from "@bibliothecadao/eternum";
+    calculateDonkeysNeeded,
+    configManager,
+    divideByPrecision,
+    getBalance,
+    getTotalResourceWeightKg,
+} from "@frontboat/eternum";
 
-import { Resources, ResourcesIds } from "@bibliothecadao/types";
-import { useDojo } from "@bibliothecadao/react";
+import { useDojo } from "@frontboat/react";
+import { Resources, ResourcesIds } from "@frontboat/types";
 import { ArrowRight, Check, Loader2, X } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 

@@ -1,4 +1,4 @@
-import { BuildingType, FELT_CENTER, ResourceMiningTypes } from "@bibliothecadao/types";
+import { BuildingType, FELT_CENTER, ResourceMiningTypes } from "@frontboat/types";
 
 export { FELT_CENTER };
 

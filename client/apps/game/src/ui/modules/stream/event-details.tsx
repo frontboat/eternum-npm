@@ -3,9 +3,9 @@ import { ReactComponent as Crown } from "@/assets/icons/crown.svg";
 import { ReactComponent as Burn } from "@/assets/icons/fire.svg";
 import { ReactComponent as Swap } from "@/assets/icons/swap.svg";
 import { currencyFormat } from "@/ui/utils/utils";
-import { ClientComponents, ContractAddress, ID, findResourceById } from "@bibliothecadao/types";
 import { ComponentValue } from "@dojoengine/recs";
 import { hexToAscii } from "@dojoengine/utils";
+import { ClientComponents, ContractAddress, ID, findResourceById } from "@frontboat/types";
 import { EventType } from "./types";
 
 export const eventDetails: {

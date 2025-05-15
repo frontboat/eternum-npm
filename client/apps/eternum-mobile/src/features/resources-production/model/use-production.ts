@@ -1,14 +1,14 @@
 import { getBlockTimestamp } from "@/shared/hooks/use-block-timestamp";
 import useStore from "@/shared/store";
-import { configManager, ResourceManager } from "@bibliothecadao/eternum";
+import { configManager, ResourceManager } from "@frontboat/eternum";
 import {
-  useBuildings,
-  useDojo,
-  usePlayerOwnedRealmsInfo,
-  usePlayerOwnedVillagesInfo,
-  useResourceManager,
-} from "@bibliothecadao/react";
-import { getProducedResource, ResourcesIds } from "@bibliothecadao/types";
+    useBuildings,
+    useDojo,
+    usePlayerOwnedRealmsInfo,
+    usePlayerOwnedVillagesInfo,
+    useResourceManager,
+} from "@frontboat/react";
+import { getProducedResource, ResourcesIds } from "@frontboat/types";
 import { useCallback, useMemo } from "react";
 import { LaborProductionCalldata, ResourceProductionCalldata } from "./types";
 

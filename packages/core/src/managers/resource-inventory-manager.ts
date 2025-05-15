@@ -1,5 +1,5 @@
+import { ClientComponents, SystemCalls, type DojoAccount, type ID, type Resource } from "@frontboat/types";
 import { ResourceManager } from "..";
-import { ClientComponents, SystemCalls, type DojoAccount, type ID, type Resource } from "@bibliothecadao/types";
 export class ResourceInventoryManager {
   carrierEntityId: ID;
 

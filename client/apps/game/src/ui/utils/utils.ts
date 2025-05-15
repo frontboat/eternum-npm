@@ -1,8 +1,8 @@
 import { SortInterface } from "@/ui/elements/sort-button";
 import { getBlockTimestamp } from "@/utils/timestamp";
-import { divideByPrecision, toHexString } from "@bibliothecadao/eternum";
-import { ContractAddress, ResourceCost, ResourcesIds } from "@bibliothecadao/types";
 import { getEntityIdFromKeys } from "@dojoengine/utils";
+import { divideByPrecision, toHexString } from "@frontboat/eternum";
+import { ContractAddress, ResourceCost, ResourcesIds } from "@frontboat/types";
 
 export { getEntityIdFromKeys };
 

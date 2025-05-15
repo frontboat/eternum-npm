@@ -1,5 +1,5 @@
-import { ClientComponents, ContractAddress } from "@bibliothecadao/types";
 import { ComponentValue } from "@dojoengine/recs";
+import { ClientComponents, ContractAddress } from "@frontboat/types";
 
 export const getStructureFromToriiEntity = (entityData: any) => {
   const structure: ComponentValue<ClientComponents["Structure"]["schema"]> = {

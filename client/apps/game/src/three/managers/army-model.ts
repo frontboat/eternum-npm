@@ -1,17 +1,17 @@
 import { gltfLoader } from "@/three/helpers/utils";
 import { GRAPHICS_SETTING, GraphicsSettings } from "@/ui/config";
 import { getCharacterModel } from "@/utils/agent";
-import { Biome } from "@bibliothecadao/eternum";
-import { BiomeType, FELT_CENTER, TroopTier, TroopType } from "@bibliothecadao/types";
+import { Biome } from "@frontboat/eternum";
+import { BiomeType, FELT_CENTER, TroopTier, TroopType } from "@frontboat/types";
 import * as THREE from "three";
 import { AnimationMixer } from "three";
 import { CSS2DObject } from "three/examples/jsm/renderers/CSS2DRenderer.js";
 import {
-  ANIMATION_STATE_IDLE,
-  ANIMATION_STATE_MOVING,
-  MAX_INSTANCES,
-  MODEL_TYPE_TO_FILE,
-  TROOP_TO_MODEL,
+    ANIMATION_STATE_IDLE,
+    ANIMATION_STATE_MOVING,
+    MAX_INSTANCES,
+    MODEL_TYPE_TO_FILE,
+    TROOP_TO_MODEL,
 } from "../constants/army.constants";
 import { AnimatedInstancedMesh, ArmyInstanceData, ModelData, ModelType, MovementData } from "../types/army.types";
 import { getHexForWorldPosition } from "../utils";

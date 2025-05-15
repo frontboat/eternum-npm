@@ -1,7 +1,7 @@
 import { ReactComponent as Lightning } from "@/assets/icons/common/lightning.svg";
 import { useUIStore } from "@/hooks/store/use-ui-store";
-import { configManager } from "@bibliothecadao/eternum";
-import { BiomeType, ID, TroopType } from "@bibliothecadao/types";
+import { configManager } from "@frontboat/eternum";
+import { BiomeType, ID, TroopType } from "@frontboat/types";
 import { useMemo } from "react";
 
 export const StaminaResource = ({

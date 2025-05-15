@@ -1,22 +1,22 @@
 import {
-  ADMIN_BANK_ENTITY_ID,
-  BRIDGE_FEE_DENOMINATOR,
-  BuildingType,
-  CapacityConfig,
-  type Config as EternumConfig,
-  HexGrid,
-  type ResourceInputs,
-  type ResourceOutputs,
-  type ResourceWhitelistConfig,
-  ResourcesIds,
-  scaleResourceInputs,
-  scaleResourceOutputs,
-  scaleResources,
-} from "@bibliothecadao/types";
+    ADMIN_BANK_ENTITY_ID,
+    BRIDGE_FEE_DENOMINATOR,
+    BuildingType,
+    CapacityConfig,
+    type Config as EternumConfig,
+    HexGrid,
+    type ResourceInputs,
+    type ResourceOutputs,
+    type ResourceWhitelistConfig,
+    ResourcesIds,
+    scaleResourceInputs,
+    scaleResourceOutputs,
+    scaleResources,
+} from "@frontboat/types";
 
 import chalk from "chalk";
 
-import type { EternumProvider } from "@bibliothecadao/provider";
+import type { EternumProvider } from "@frontboat/provider";
 import fs from "fs";
 import type { Account } from "starknet";
 import type { NetworkType } from "utils/environment";

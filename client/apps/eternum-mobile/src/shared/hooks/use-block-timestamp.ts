@@ -1,5 +1,5 @@
-import { configManager } from "@bibliothecadao/eternum";
-import { TickIds } from "@bibliothecadao/types";
+import { configManager } from "@frontboat/eternum";
+import { TickIds } from "@frontboat/types";
 import { useEffect, useState } from "react";
 
 export const useBlockTimestamp = () => {

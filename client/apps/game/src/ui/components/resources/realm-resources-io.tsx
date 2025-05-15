@@ -1,6 +1,6 @@
 import { ResourceIcon } from "@/ui/elements/resource-icon";
-import { configManager } from "@bibliothecadao/eternum";
-import { ResourcesIds } from "@bibliothecadao/types";
+import { configManager } from "@frontboat/eternum";
+import { ResourcesIds } from "@frontboat/types";
 
 export const RealmResourcesIO = ({
   resourcesProduced,

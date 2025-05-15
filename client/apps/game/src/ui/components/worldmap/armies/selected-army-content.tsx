@@ -1,7 +1,7 @@
-import { getEntityIdFromKeys } from "@bibliothecadao/eternum";
-import { useDojo } from "@bibliothecadao/react";
-import { ArmyInfo } from "@bibliothecadao/types";
 import { useComponentValue } from "@dojoengine/react";
+import { getEntityIdFromKeys } from "@frontboat/eternum";
+import { useDojo } from "@frontboat/react";
+import { ArmyInfo } from "@frontboat/types";
 import { ArmyChip } from "../../military/army-chip";
 import { ArmyWarning } from "./army-warning";
 

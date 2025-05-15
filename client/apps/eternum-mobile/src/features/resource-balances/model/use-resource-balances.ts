@@ -1,6 +1,6 @@
 import { useBlockTimestamp } from "@/shared/hooks/use-block-timestamp";
-import { useResourceManager } from "@bibliothecadao/react";
-import { ID, resources } from "@bibliothecadao/types";
+import { useResourceManager } from "@frontboat/react";
+import { ID, resources } from "@frontboat/types";
 import { useCallback, useEffect, useState } from "react";
 
 interface ResourceAmount {

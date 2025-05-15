@@ -1,4 +1,4 @@
-import { LordsAbi } from "@bibliothecadao/eternum";
+import { LordsAbi } from "@frontboat/eternum";
 import { useAccount, useCall } from "@starknet-react/core";
 import { Abi } from "starknet";
 

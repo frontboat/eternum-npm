@@ -1,4 +1,4 @@
-import { ResourcesIds, type ResourceCost, type ResourceInputs, type ResourceOutputs } from "@bibliothecadao/types";
+import { ResourcesIds, type ResourceCost, type ResourceInputs, type ResourceOutputs } from "@frontboat/types";
 
 // weight in kg
 // grams / 10^9

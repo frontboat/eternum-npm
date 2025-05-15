@@ -5,8 +5,8 @@
 // import { useLords } from "@/hooks/use-lords";
 // import { useTravel } from "@/hooks/use-travel";
 // import { displayAddress } from "@/lib/utils";
-// import { calculateDonkeysNeeded, divideByPrecision, getTotalResourceWeightKg } from "@bibliothecadao/eternum";
-// import { ADMIN_BANK_ENTITY_ID, Resources, ResourcesIds, resources } from "@bibliothecadao/types";
+// import { calculateDonkeysNeeded, divideByPrecision, getTotalResourceWeightKg } from "@frontboat/eternum";
+// import { ADMIN_BANK_ENTITY_ID, Resources, ResourcesIds, resources } from "@frontboat/types";
 // import { useAccount, useBalance } from "@starknet-react/core";
 // import { useQuery } from "@tanstack/react-query";
 // import { InfoIcon, Loader, Plus } from "lucide-react";

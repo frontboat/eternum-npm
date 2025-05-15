@@ -1,8 +1,8 @@
 /// <reference types="vite-plugin-pwa/client" />
 
 import { ReactComponent as EternumWordsLogo } from "@/assets/icons/eternum-words-logo.svg";
-import { setup } from "@bibliothecadao/dojo";
-import { configManager } from "@bibliothecadao/eternum";
+import { setup } from "@frontboat/dojo";
+import { configManager } from "@frontboat/eternum";
 import { inject } from "@vercel/analytics";
 import { Buffer } from "buffer";
 import React from "react";

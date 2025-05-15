@@ -1,5 +1,5 @@
-import { EternumProvider } from "@bibliothecadao/provider";
 import { getGameManifest } from "@contracts";
+import { EternumProvider } from "@frontboat/provider";
 import { Account } from "starknet";
 import { confirmNonLocalDeployment } from "../utils/confirmation";
 import { logNetwork, saveConfigJsonFromConfigTsFile, type NetworkType } from "../utils/environment";

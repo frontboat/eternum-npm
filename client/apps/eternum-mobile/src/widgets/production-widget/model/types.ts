@@ -1,5 +1,5 @@
-import { ResourceManager } from "@bibliothecadao/eternum";
-import { Building, RealmInfo, ResourcesIds } from "@bibliothecadao/types";
+import { ResourceManager } from "@frontboat/eternum";
+import { Building, RealmInfo, ResourcesIds } from "@frontboat/types";
 
 export interface ResourceAmount {
   resourceId: ResourcesIds;

@@ -2,13 +2,13 @@ import { ResourceIcon } from "@/ui/elements/resource-icon";
 import { calculateArrivalTime, formatArrivalTime } from "@/ui/utils/utils";
 import { getBlockTimestamp } from "@/utils/timestamp";
 import {
-  calculateDonkeysNeeded,
-  divideByPrecision,
-  getBalance,
-  getTotalResourceWeightKg,
-} from "@bibliothecadao/eternum";
-import { useDojo } from "@bibliothecadao/react";
-import { ResourcesIds, type ID, type Resource } from "@bibliothecadao/types";
+    calculateDonkeysNeeded,
+    divideByPrecision,
+    getBalance,
+    getTotalResourceWeightKg,
+} from "@frontboat/eternum";
+import { useDojo } from "@frontboat/react";
+import { ResourcesIds, type ID, type Resource } from "@frontboat/types";
 import { useEffect, useMemo, useState } from "react";
 
 export const TravelInfo = ({

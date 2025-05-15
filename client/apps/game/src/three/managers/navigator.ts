@@ -1,5 +1,5 @@
 import { gltfLoader } from "@/three/helpers/utils";
-import { type HexPosition } from "@bibliothecadao/types";
+import { type HexPosition } from "@frontboat/types";
 import throttle from "lodash/throttle";
 import * as THREE from "three";
 import { CSS2DObject } from "three-stdlib";

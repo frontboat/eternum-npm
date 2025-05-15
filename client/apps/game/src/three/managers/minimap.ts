@@ -4,7 +4,7 @@ import { fetchAllTiles, type Tile } from "@/services/api";
 import { BIOME_COLORS } from "@/three/managers/biome-colors";
 import type WorldmapScene from "@/three/scenes/worldmap";
 import { Position } from "@/types/position";
-import { BiomeIdToType, HexPosition, ResourcesIds, StructureType, TileOccupier } from "@bibliothecadao/types";
+import { BiomeIdToType, HexPosition, ResourcesIds, StructureType, TileOccupier } from "@frontboat/types";
 import throttle from "lodash/throttle";
 import type * as THREE from "three";
 import { CameraView } from "../scenes/hexagon-scene";

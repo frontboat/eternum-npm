@@ -1,5 +1,5 @@
 import { getLordsAddress } from "@/components/ui/utils/addresses";
-import { configManager } from "@bibliothecadao/eternum";
+import { configManager } from "@frontboat/eternum";
 import { useAccount } from "@starknet-react/core";
 import { useEffect, useState } from "react";
 

@@ -1,7 +1,7 @@
 import { Tabs } from "@/ui/elements/tab";
-import { LeaderboardManager } from "@bibliothecadao/eternum";
-import { useDojo } from "@bibliothecadao/react";
-import { ID } from "@bibliothecadao/types";
+import { LeaderboardManager } from "@frontboat/eternum";
+import { useDojo } from "@frontboat/react";
+import { ID } from "@frontboat/types";
 import { useMemo, useState } from "react";
 import { CoOwners } from "./co-owners";
 import { Leaderboard } from "./leaderboard";

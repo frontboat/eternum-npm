@@ -1,9 +1,9 @@
 import { ResourceChip } from "@/ui/components/resources/resource-chip";
 
-import { getEntityIdFromKeys, getRealmInfo } from "@bibliothecadao/eternum";
-import { useDojo, useResourceManager } from "@bibliothecadao/react";
-import { ID, RESOURCE_TIERS, ResourcesIds } from "@bibliothecadao/types";
 import { useComponentValue } from "@dojoengine/react";
+import { getEntityIdFromKeys, getRealmInfo } from "@frontboat/eternum";
+import { useDojo, useResourceManager } from "@frontboat/react";
+import { ID, RESOURCE_TIERS, ResourcesIds } from "@frontboat/types";
 import React, { useMemo, useState } from "react";
 
 const TIER_DISPLAY_NAMES: Record<string, string> = {

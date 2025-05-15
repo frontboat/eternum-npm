@@ -1,6 +1,6 @@
 import { LiquidityResourceRow } from "@/ui/components/bank/liquidity-resource-row";
-import { ContractAddress, ID, RESOURCE_TIERS, ResourcesIds, resources } from "@bibliothecadao/types";
-import { useDojo, usePlayerStructures } from "@bibliothecadao/react";
+import { useDojo, usePlayerStructures } from "@frontboat/react";
+import { ContractAddress, ID, RESOURCE_TIERS, ResourcesIds, resources } from "@frontboat/types";
 import { useState } from "react";
 
 type LiquidityTableProps = {

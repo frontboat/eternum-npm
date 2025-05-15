@@ -1,7 +1,7 @@
 import { ResourceIcon } from "@/ui/elements/resource-icon";
-import { useDojo } from "@bibliothecadao/react";
-import { ClientComponents, ID, resources, world } from "@bibliothecadao/types";
 import { ComponentValue, defineComponentSystem, isComponentUpdate } from "@dojoengine/recs";
+import { useDojo } from "@frontboat/react";
+import { ClientComponents, ID, resources, world } from "@frontboat/types";
 import { AnimatePresence, motion } from "framer-motion";
 import { useCallback, useEffect, useRef, useState } from "react";
 

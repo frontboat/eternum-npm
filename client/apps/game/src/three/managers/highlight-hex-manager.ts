@@ -1,7 +1,7 @@
 import { createRoundedHexagonShape } from "@/three/geometry/hexagon-geometry";
 import { HEX_SIZE } from "@/three/scenes/constants";
 import { highlightHexMaterial } from "@/three/shaders/highlight-hex-material";
-import { ActionPath, ActionType } from "@bibliothecadao/eternum";
+import { ActionPath, ActionType } from "@frontboat/eternum";
 import * as THREE from "three";
 import { getWorldPositionForHex } from "../utils";
 

@@ -1,7 +1,7 @@
-import { ClientComponents } from "@bibliothecadao/types";
 import { ComponentValue } from "@dojoengine/recs";
 import { AndComposeClause, MemberClause, OrComposeClause } from "@dojoengine/sdk";
 import { Query, ToriiClient } from "@dojoengine/torii-wasm";
+import { ClientComponents } from "@frontboat/types";
 import { getTileFromToriiEntity } from "../parser/tile";
 
 export const getTilesFromToriiClient = async (

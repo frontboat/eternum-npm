@@ -1,24 +1,24 @@
 import { getBlockTimestamp } from "@/shared/hooks/use-block-timestamp";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/shared/ui/tabs";
 import {
-  configManager,
-  divideByPrecision,
-  getBalance,
-  getBuildingCosts,
-  getEntityIdFromKeys,
-  getRealmInfo,
-  hasEnoughPopulationForBuilding,
-  ResourceIdToMiningType,
-} from "@bibliothecadao/eternum";
-import { useDojo } from "@bibliothecadao/react";
+    configManager,
+    divideByPrecision,
+    getBalance,
+    getBuildingCosts,
+    getEntityIdFromKeys,
+    getRealmInfo,
+    hasEnoughPopulationForBuilding,
+    ResourceIdToMiningType,
+} from "@frontboat/eternum";
+import { useDojo } from "@frontboat/react";
 import {
-  BuildingType,
-  BuildingTypeToString,
-  findResourceById,
-  getBuildingFromResource,
-  isEconomyBuilding,
-  ResourceMiningTypes,
-} from "@bibliothecadao/types";
+    BuildingType,
+    BuildingTypeToString,
+    findResourceById,
+    getBuildingFromResource,
+    isEconomyBuilding,
+    ResourceMiningTypes,
+} from "@frontboat/types";
 import { Warehouse, Wheat } from "lucide-react";
 import { useState } from "react";
 import { BuildingPreviewCard } from "./building-preview-card";

@@ -1,5 +1,5 @@
 import { displayAddress } from "@/lib/utils";
-import { SetupNetworkResult, SetupResult } from "@bibliothecadao/dojo";
+import { SetupNetworkResult, SetupResult } from "@frontboat/dojo";
 import { useAccount } from "@starknet-react/core";
 import { ReactNode, createContext, useContext, useMemo } from "react";
 import { Account, AccountInterface, RpcProvider } from "starknet";

@@ -1,5 +1,5 @@
 import { table } from "@/components/styles";
-import { ResourcesIds, STEALABLE_RESOURCES, resources } from "@bibliothecadao/types";
+import { ResourcesIds, STEALABLE_RESOURCES, resources } from "@frontboat/types";
 import ResourceIcon from "./ResourceIcon";
 
 export const RaidableResources = () => {

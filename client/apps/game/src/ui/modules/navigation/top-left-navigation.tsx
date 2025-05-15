@@ -11,11 +11,11 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { ViewOnMapIcon } from "@/ui/elements/view-on-map-icon";
 import { SecondaryMenuItems } from "@/ui/modules/navigation/secondary-menu-items";
 import { getBlockTimestamp } from "@/utils/timestamp";
-import { configManager, formatTime, getEntityInfo } from "@bibliothecadao/eternum";
-import { useDojo, useQuery } from "@bibliothecadao/react";
-import { ContractAddress, ID, PlayerStructure, TickIds } from "@bibliothecadao/types";
 import { getComponentValue } from "@dojoengine/recs";
 import { getEntityIdFromKeys } from "@dojoengine/utils";
+import { configManager, formatTime, getEntityInfo } from "@frontboat/eternum";
+import { useDojo, useQuery } from "@frontboat/react";
+import { ContractAddress, ID, PlayerStructure, TickIds } from "@frontboat/types";
 import { motion } from "framer-motion";
 import { Crown, EyeIcon, Landmark, Pickaxe, ShieldQuestion, Sparkles, Star, X } from "lucide-react";
 import { memo, useCallback, useEffect, useMemo, useRef, useState } from "react";

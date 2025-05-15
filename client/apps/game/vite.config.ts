@@ -82,7 +82,7 @@ export default defineConfig({
   optimizeDeps: {
     exclude: [
       "js-big-decimal",
-      "@bibliothecadao/eternum", // Add your dependency here
+      "@frontboat/eternum", // Add your dependency here
     ],
   },
   publicDir: "../../public",

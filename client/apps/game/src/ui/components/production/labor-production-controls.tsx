@@ -4,9 +4,9 @@ import { ResourceIcon } from "@/ui/elements/resource-icon";
 import { SelectResource } from "@/ui/elements/select-resource";
 import { formatStringNumber } from "@/ui/utils/utils";
 import { getBlockTimestamp } from "@/utils/timestamp";
-import { configManager, divideByPrecision, formatTime, multiplyByPrecision } from "@bibliothecadao/eternum";
-import { useDojo, useResourceManager } from "@bibliothecadao/react";
-import { findResourceById, RealmInfo, ResourcesIds, StructureType } from "@bibliothecadao/types";
+import { configManager, divideByPrecision, formatTime, multiplyByPrecision } from "@frontboat/eternum";
+import { useDojo, useResourceManager } from "@frontboat/react";
+import { findResourceById, RealmInfo, ResourcesIds, StructureType } from "@frontboat/types";
 import { useMemo, useState } from "react";
 
 export const LaborProductionControls = ({ realm, bonus }: { realm: RealmInfo; bonus: number }) => {

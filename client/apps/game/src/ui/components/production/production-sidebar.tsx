@@ -1,8 +1,8 @@
 import { useUIStore } from "@/hooks/store/use-ui-store";
 import { ResourceIcon } from "@/ui/elements/resource-icon";
-import { ID, RealmInfo, resources } from "@bibliothecadao/types";
-import { useDojo } from "@bibliothecadao/react";
 import { HasValue, runQuery } from "@dojoengine/recs";
+import { useDojo } from "@frontboat/react";
+import { ID, RealmInfo, resources } from "@frontboat/types";
 import { memo, useMemo } from "react";
 
 interface ProductionSidebarProps {

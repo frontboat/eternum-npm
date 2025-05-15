@@ -1,4 +1,4 @@
-import type { ClientComponents, ContractAddress, GuildInfo, GuildMemberInfo } from "@bibliothecadao/types";
+import type { ClientComponents, ContractAddress, GuildInfo, GuildMemberInfo } from "@frontboat/types";
 
 import { type Entity, getComponentValue } from "@dojoengine/recs";
 import { getEntityIdFromKeys } from "@dojoengine/utils";

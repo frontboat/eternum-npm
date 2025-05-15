@@ -1,7 +1,7 @@
 import { Headline } from "@/ui/elements/headline";
 import { ResourceCost } from "@/ui/elements/resource-cost";
-import { configManager } from "@bibliothecadao/eternum";
-import { LEVEL_DESCRIPTIONS, RealmLevelNames, RealmLevels } from "@bibliothecadao/types";
+import { configManager } from "@frontboat/eternum";
+import { LEVEL_DESCRIPTIONS, RealmLevelNames, RealmLevels } from "@frontboat/types";
 import { useMemo } from "react";
 
 const CASTLE_IMAGES: Partial<Record<RealmLevelNames, string>> = {

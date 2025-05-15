@@ -11,7 +11,7 @@
     "simulate-battle": "node battle_time.js"
   },
   "dependencies": {
-    "@bibliothecadao/eternum": "workspace:^"
+    "@frontboat/eternum": "workspace:^"
   },
   "devDependencies": {
     "@types/node": "^20.11.10"

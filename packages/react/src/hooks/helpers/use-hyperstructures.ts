@@ -1,12 +1,12 @@
-import {
-  getAddressNameFromEntity,
-  getHyperstructureCurrentAmounts,
-  getHyperstructureProgress,
-  toInteger,
-} from "@bibliothecadao/eternum";
-import { ContractAddress, type HyperstructureInfo, type ID, type ResourcesIds } from "@bibliothecadao/types";
 import { useEntityQuery } from "@dojoengine/react";
 import { Has, HasValue, getComponentValue } from "@dojoengine/recs";
+import {
+    getAddressNameFromEntity,
+    getHyperstructureCurrentAmounts,
+    getHyperstructureProgress,
+    toInteger,
+} from "@frontboat/eternum";
+import { ContractAddress, type HyperstructureInfo, type ID, type ResourcesIds } from "@frontboat/types";
 import { useMemo } from "react";
 import { shortString } from "starknet";
 import { useDojo } from "../context";

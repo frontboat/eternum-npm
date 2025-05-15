@@ -1,4 +1,4 @@
-import { FELT_CENTER, HexPosition, HexTileInfo } from "@bibliothecadao/types";
+import { FELT_CENTER, HexPosition, HexTileInfo } from "@frontboat/types";
 
 export class TravelPaths {
   private readonly paths: Map<string, { path: HexTileInfo[]; isExplored: boolean }>;

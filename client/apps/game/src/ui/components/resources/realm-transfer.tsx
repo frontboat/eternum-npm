@@ -5,23 +5,23 @@ import { cn } from "@/ui/elements/lib/utils";
 import { NumberInput } from "@/ui/elements/number-input";
 import { ResourceIcon } from "@/ui/elements/resource-icon";
 import { currencyFormat } from "@/ui/utils/utils";
-import {
-  calculateDonkeysNeeded,
-  getEntityIdFromKeys,
-  getTotalResourceWeightKg,
-  isMilitaryResource,
-  ResourceManager,
-} from "@bibliothecadao/eternum";
-import { useDojo, usePlayerStructures, useResourceManager } from "@bibliothecadao/react";
-import {
-  findResourceById,
-  ID,
-  PlayerStructure,
-  RESOURCE_PRECISION,
-  ResourcesIds,
-  StructureType,
-} from "@bibliothecadao/types";
 import { getComponentValue } from "@dojoengine/recs";
+import {
+    calculateDonkeysNeeded,
+    getEntityIdFromKeys,
+    getTotalResourceWeightKg,
+    isMilitaryResource,
+    ResourceManager,
+} from "@frontboat/eternum";
+import { useDojo, usePlayerStructures, useResourceManager } from "@frontboat/react";
+import {
+    findResourceById,
+    ID,
+    PlayerStructure,
+    RESOURCE_PRECISION,
+    ResourcesIds,
+    StructureType,
+} from "@frontboat/types";
 import { ArrowBigDown, ArrowBigUp } from "lucide-react";
 import { Dispatch, memo, SetStateAction, useCallback, useEffect, useMemo, useState } from "react";
 import { num } from "starknet";

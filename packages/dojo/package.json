@@ -1,5 +1,5 @@
 {
-  "name": "@bibliothecadao/dojo",
+  "name": "@frontboat/dojo",
   "version": "0.2.0",
   "description": "Eternum Provider for dojo",
   "license": "MIT",
@@ -20,8 +20,8 @@
     "test": "vitest"
   },
   "dependencies": {
-    "@bibliothecadao/types": "workspace:*",
-    "@bibliothecadao/provider": "workspace:*",
+    "@frontboat/types": "workspace:*",
+    "@frontboat/provider": "workspace:*",
     "@dojoengine/core": "catalog:",
     "@dojoengine/recs": "catalog:",
     "@dojoengine/sdk": "catalog:",

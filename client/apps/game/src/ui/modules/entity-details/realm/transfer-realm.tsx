@@ -2,7 +2,7 @@ import { useUIStore } from "@/hooks/store/use-ui-store";
 import Button from "@/ui/elements/button";
 import TextInput from "@/ui/elements/text-input";
 import { displayAddress } from "@/ui/utils/utils";
-import { useCartridgeAddress, useDebounce, useDojo } from "@bibliothecadao/react";
+import { useCartridgeAddress, useDebounce, useDojo } from "@frontboat/react";
 import { useEffect, useState } from "react";
 
 export const TransferRealm = ({ structure }: { structure: any }) => {

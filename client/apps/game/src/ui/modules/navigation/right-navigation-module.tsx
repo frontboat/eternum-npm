@@ -5,7 +5,7 @@ import { Bridge } from "@/ui/components/bridge/bridge";
 import { ProductionModal } from "@/ui/components/production/production-modal";
 import { BuildingThumbs, MenuEnum } from "@/ui/config";
 import CircleButton from "@/ui/elements/circle-button";
-import { PlayerStructure } from "@bibliothecadao/types";
+import { PlayerStructure } from "@frontboat/types";
 import { motion } from "framer-motion";
 import { Suspense, lazy, useMemo } from "react";
 import { BaseContainer } from "../../containers/base-container";

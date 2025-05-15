@@ -1,4 +1,4 @@
-import { BiomeType } from "@bibliothecadao/types";
+import { BiomeType } from "@frontboat/types";
 import { Army, CombatParameters, CombatSimulator } from "./combat-simulator";
 
 export enum RaidOutcome {

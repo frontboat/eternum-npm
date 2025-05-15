@@ -5,27 +5,27 @@ import Button from "@/ui/elements/button";
 import { NumberInput } from "@/ui/elements/number-input";
 import { ResourceIcon } from "@/ui/elements/resource-icon";
 import { calculateArrivalTime, currencyFormat, formatArrivalTime, formatNumber } from "@/ui/utils/utils";
-import {
-  calculateDonkeysNeeded,
-  computeTravelTime,
-  configManager,
-  divideByPrecision,
-  getAddressNameFromEntity,
-  getEntityIdFromKeys,
-  getTotalResourceWeightKg,
-  isMilitaryResource,
-  multiplyByPrecision,
-} from "@bibliothecadao/eternum";
-import { useDojo, useResourceManager } from "@bibliothecadao/react";
-import {
-  EntityType,
-  findResourceById,
-  ResourcesIds,
-  StructureType,
-  type ID,
-  type MarketInterface,
-} from "@bibliothecadao/types";
 import { getComponentValue } from "@dojoengine/recs";
+import {
+    calculateDonkeysNeeded,
+    computeTravelTime,
+    configManager,
+    divideByPrecision,
+    getAddressNameFromEntity,
+    getEntityIdFromKeys,
+    getTotalResourceWeightKg,
+    isMilitaryResource,
+    multiplyByPrecision,
+} from "@frontboat/eternum";
+import { useDojo, useResourceManager } from "@frontboat/react";
+import {
+    EntityType,
+    findResourceById,
+    ResourcesIds,
+    StructureType,
+    type ID,
+    type MarketInterface,
+} from "@frontboat/types";
 import { memo, useCallback, useEffect, useMemo, useState } from "react";
 
 const ONE_MONTH = 2628000;

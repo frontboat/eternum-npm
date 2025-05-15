@@ -1,6 +1,6 @@
 import { ETERNUM_CONFIG } from "@/utils/config";
 import { findResourceById } from "@/utils/resources";
-import { RealmLevels } from "@bibliothecadao/types";
+import { RealmLevels } from "@frontboat/types";
 import ResourceIcon from "./ResourceIcon";
 import { colors, formatAmount } from "./styles";
 

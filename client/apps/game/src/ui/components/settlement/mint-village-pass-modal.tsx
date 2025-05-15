@@ -1,9 +1,9 @@
 import { fetchRealmVillageSlots, fetchTokenTransfers, RealmVillageSlot, TokenTransfer } from "@/services/api";
 import Button from "@/ui/elements/button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/ui/elements/select";
-import { useDojo } from "@bibliothecadao/react";
-import { Direction, getNeighborHexes, HexPosition, Steps } from "@bibliothecadao/types";
 import { ControllerConnector } from "@cartridge/connector";
+import { useDojo } from "@frontboat/react";
+import { Direction, getNeighborHexes, HexPosition, Steps } from "@frontboat/types";
 import { useAccount } from "@starknet-react/core";
 import { useEffect, useMemo, useState } from "react";
 import { ModalContainer } from "../modal-container";

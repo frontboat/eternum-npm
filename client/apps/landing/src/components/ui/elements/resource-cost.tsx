@@ -1,5 +1,5 @@
-import { divideByPrecision } from "@bibliothecadao/eternum";
-import { findResourceById } from "@bibliothecadao/types";
+import { divideByPrecision } from "@frontboat/eternum";
+import { findResourceById } from "@frontboat/types";
 import clsx from "clsx";
 import { useMemo } from "react";
 import { formatNumber } from "../utils/utils";

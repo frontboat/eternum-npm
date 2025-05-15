@@ -1,6 +1,6 @@
-import { StructureType } from "@bibliothecadao/types";
 import { useEntityQuery } from "@dojoengine/react";
 import { Entity, Has, HasValue, getComponentValue, runQuery } from "@dojoengine/recs";
+import { StructureType } from "@frontboat/types";
 import { shortString } from "starknet";
 import { useDojo } from "../context";
 

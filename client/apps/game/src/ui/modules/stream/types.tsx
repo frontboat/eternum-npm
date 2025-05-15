@@ -1,4 +1,4 @@
-import { ContractAddress, Position } from "@bibliothecadao/types";
+import { ContractAddress, Position } from "@frontboat/types";
 
 export enum EventType {
   BurnDonkey = "BurnDonkey",

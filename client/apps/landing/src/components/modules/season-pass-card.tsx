@@ -3,7 +3,7 @@ import { seasonPassAddress } from "@/config";
 import { useMarketplace } from "@/hooks/use-marketplace";
 import { trimAddress } from "@/lib/utils";
 import { MergedNftData } from "@/types";
-import { RESOURCE_RARITY, ResourcesIds } from "@bibliothecadao/types"; // Import enums
+import { RESOURCE_RARITY, ResourcesIds } from "@frontboat/types"; // Import enums
 import { useAccount } from "@starknet-react/core";
 import { ArrowRightLeft, Check, Plus } from "lucide-react"; // Import the icon
 import { useEffect, useMemo, useState } from "react";

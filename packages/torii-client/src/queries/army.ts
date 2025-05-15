@@ -1,4 +1,4 @@
-import { ID } from "@bibliothecadao/types";
+import { ID } from "@frontboat/types";
 // import { Entity } from "@dojoengine/recs"; // Will be removed
 import { PatternMatching, Query, ToriiClient } from "@dojoengine/torii-wasm";
 import { getExplorerFromToriiEntity, getResourcesFromToriiEntity } from "../parser";

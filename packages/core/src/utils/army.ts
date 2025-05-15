@@ -1,17 +1,17 @@
-import {
-  type ArmyInfo,
-  type ClientComponents,
-  type ContractAddress,
-  type Direction,
-  type ID,
-  ResourcesIds,
-  TickIds,
-  TroopTier,
-  TroopType,
-  getNeighborHexes,
-} from "@bibliothecadao/types";
 import { type ComponentValue, type Entity, getComponentValue } from "@dojoengine/recs";
 import { getEntityIdFromKeys } from "@dojoengine/utils";
+import {
+    type ArmyInfo,
+    type ClientComponents,
+    type ContractAddress,
+    type Direction,
+    type ID,
+    ResourcesIds,
+    TickIds,
+    TroopTier,
+    TroopType,
+    getNeighborHexes,
+} from "@frontboat/types";
 import { shortString } from "starknet";
 import { configManager, divideByPrecision, getAddressNameFromEntity, gramToKg, nanogramToKg } from "..";
 

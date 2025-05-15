@@ -1,5 +1,5 @@
 import { Position } from "@/types/position";
-import { ClientComponents, ContractAddress } from "@bibliothecadao/types";
+import { ClientComponents, ContractAddress } from "@frontboat/types";
 import { create } from "zustand";
 import { SettlementLocation } from "./settlement-types";
 import { generateSettlementLocations, getBanksLocations, getOccupiedLocations } from "./settlement-utils";

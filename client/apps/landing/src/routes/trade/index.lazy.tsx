@@ -4,12 +4,12 @@ import { SeasonPassesGrid } from "@/components/modules/season-passes-grid";
 import { TraitFilterUI } from "@/components/modules/trait-filter-ui";
 import { Button } from "@/components/ui/button";
 import {
-  Pagination,
-  PaginationContent,
-  PaginationItem,
-  PaginationLink,
-  PaginationNext,
-  PaginationPrevious,
+    Pagination,
+    PaginationContent,
+    PaginationItem,
+    PaginationLink,
+    PaginationNext,
+    PaginationPrevious,
 } from "@/components/ui/pagination";
 import { ScrollHeader } from "@/components/ui/scroll-header";
 import { Slider } from "@/components/ui/slider";
@@ -18,7 +18,7 @@ import { fetchActiveMarketOrdersTotal, fetchOpenOrdersByPrice, OpenOrderByPrice 
 import { useTraitFiltering } from "@/hooks/useTraitFiltering";
 import { displayAddress } from "@/lib/utils";
 import { useSelectedPassesStore } from "@/stores/selected-passes";
-import { useDebounce } from "@bibliothecadao/react";
+import { useDebounce } from "@frontboat/react";
 import { useConnect } from "@starknet-react/core";
 import { useSuspenseQueries } from "@tanstack/react-query";
 import { createLazyFileRoute } from "@tanstack/react-router";

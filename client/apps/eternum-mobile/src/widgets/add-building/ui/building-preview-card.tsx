@@ -1,7 +1,7 @@
 import { Button } from "@/shared/ui/button";
 import { Card, CardContent } from "@/shared/ui/card";
 import { ResourceIcon } from "@/shared/ui/resource-icon";
-import { BuildingType, ResourcesIds } from "@bibliothecadao/types";
+import { BuildingType, ResourcesIds } from "@frontboat/types";
 import { AlertTriangle, Home, Plus, Warehouse } from "lucide-react";
 import { useState } from "react";
 import { BuildingDetailsDrawer } from "./building-details-drawer";

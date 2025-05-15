@@ -1,5 +1,5 @@
 import { Position } from "@/types/position";
-import { ID, QuestType, StructureType, TroopTier, TroopType } from "@bibliothecadao/types";
+import { ID, QuestType, StructureType, TroopTier, TroopType } from "@frontboat/types";
 
 export enum SceneName {
   WorldMap = "map",

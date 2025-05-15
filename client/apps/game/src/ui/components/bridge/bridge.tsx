@@ -8,17 +8,17 @@ import { ResourceIcon } from "@/ui/elements/resource-icon";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/ui/elements/select";
 import { displayAddress } from "@/ui/utils/utils";
 import { getClientFeeRecipient, getLordsAddress, getResourceAddresses } from "@/utils/addresses";
-import { divideByPrecision, getEntityIdFromKeys } from "@bibliothecadao/eternum";
-import { useBridgeAsset, useDojo, useResourceManager } from "@bibliothecadao/react";
-import {
-  ID,
-  PlayerStructure,
-  RESOURCE_PRECISION,
-  resources,
-  StructureType,
-  WORLD_CONFIG_ID,
-} from "@bibliothecadao/types";
 import { useComponentValue } from "@dojoengine/react";
+import { divideByPrecision, getEntityIdFromKeys } from "@frontboat/eternum";
+import { useBridgeAsset, useDojo, useResourceManager } from "@frontboat/react";
+import {
+    ID,
+    PlayerStructure,
+    RESOURCE_PRECISION,
+    resources,
+    StructureType,
+    WORLD_CONFIG_ID,
+} from "@frontboat/types";
 import { useSendTransaction } from "@starknet-react/core";
 import { ArrowDown, ArrowLeftRight, Info, Star, X } from "lucide-react";
 import React, { useCallback, useMemo, useState } from "react";

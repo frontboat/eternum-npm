@@ -1,15 +1,15 @@
-import {
-  ClientComponents,
-  ContractAddress,
-  ID,
-  MERCENARIES,
-  Position,
-  Structure,
-  StructureType,
-  TickIds,
-} from "@bibliothecadao/types";
 import { ComponentValue, Entity, getComponentValue } from "@dojoengine/recs";
 import { getEntityIdFromKeys } from "@dojoengine/utils";
+import {
+    ClientComponents,
+    ContractAddress,
+    ID,
+    MERCENARIES,
+    Position,
+    Structure,
+    StructureType,
+    TickIds,
+} from "@frontboat/types";
 import { shortString } from "starknet";
 import { configManager } from "../managers";
 import { getEntityName } from "./entities";

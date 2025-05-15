@@ -1,9 +1,9 @@
 import { displayAddress } from "@/shared/lib/utils";
 import { useStore } from "@/shared/store";
 import { Loading } from "@/shared/ui/loading";
-import { SetupResult } from "@bibliothecadao/dojo";
-import { DojoContext } from "@bibliothecadao/react";
 import ControllerConnector from "@cartridge/connector/controller";
+import { SetupResult } from "@frontboat/dojo";
+import { DojoContext } from "@frontboat/react";
 import { useAccount } from "@starknet-react/core";
 import { ReactNode, useContext, useEffect, useMemo, useState } from "react";
 import { Account, AccountInterface, RpcProvider } from "starknet";

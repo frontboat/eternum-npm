@@ -1,6 +1,6 @@
-import { Player } from "@bibliothecadao/types";
 import { useEntityQuery } from "@dojoengine/react";
 import { getComponentValue, Has } from "@dojoengine/recs";
+import { Player } from "@frontboat/types";
 import { useMemo } from "react";
 import { shortString } from "starknet";
 import { useDojo } from "../context";

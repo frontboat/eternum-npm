@@ -1,5 +1,5 @@
-import { TransactionType } from "@bibliothecadao/provider";
-import { useDojo } from "@bibliothecadao/react";
+import { TransactionType } from "@frontboat/provider";
+import { useDojo } from "@frontboat/react";
 import { useEffect } from "react";
 import { toast } from "sonner";
 

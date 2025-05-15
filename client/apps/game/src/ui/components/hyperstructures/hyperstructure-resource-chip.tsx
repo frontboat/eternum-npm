@@ -4,9 +4,9 @@ import { NumberInput } from "@/ui/elements/number-input";
 import { ResourceIcon } from "@/ui/elements/resource-icon";
 import { currencyIntlFormat } from "@/ui/utils/utils";
 import { getBlockTimestamp } from "@/utils/timestamp";
-import { divideByPrecision, getBalance } from "@bibliothecadao/eternum";
-import { findResourceById, ID } from "@bibliothecadao/types";
-import { ProgressWithPercentage, useDojo } from "@bibliothecadao/react";
+import { divideByPrecision, getBalance } from "@frontboat/eternum";
+import { ProgressWithPercentage, useDojo } from "@frontboat/react";
+import { findResourceById, ID } from "@frontboat/types";
 import { useEffect, useState } from "react";
 
 type HyperstructureResourceChipProps = {

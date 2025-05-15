@@ -9,14 +9,14 @@ import { Headline } from "@/ui/elements/headline";
 import TextInput from "@/ui/elements/text-input";
 import { calculateArrivalTime, formatArrivalTime, normalizeDiacriticalMarks } from "@/ui/utils/utils";
 import {
-  computeTravelTime,
-  configManager,
-  getAddressName,
-  getRealmNameById,
-  multiplyByPrecision,
-} from "@bibliothecadao/eternum";
-import { useDojo } from "@bibliothecadao/react";
-import { ContractAddress, EntityType, ID, StructureType } from "@bibliothecadao/types";
+    computeTravelTime,
+    configManager,
+    getAddressName,
+    getRealmNameById,
+    multiplyByPrecision,
+} from "@frontboat/eternum";
+import { useDojo } from "@frontboat/react";
+import { ContractAddress, EntityType, ID, StructureType } from "@frontboat/types";
 import { ArrowRight, LucideArrowRight } from "lucide-react";
 import { memo, useEffect, useMemo, useState } from "react";
 import { EntityIdFormat } from "./transfer-view";

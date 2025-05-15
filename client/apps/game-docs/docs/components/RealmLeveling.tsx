@@ -1,5 +1,5 @@
 import { ETERNUM_CONFIG } from "@/utils/config";
-import { resources } from "@bibliothecadao/types";
+import { resources } from "@frontboat/types";
 import ResourceIcon from "./ResourceIcon";
 import { formatAmount, section, table } from "./styles";
 

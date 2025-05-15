@@ -5,13 +5,13 @@ import { NumberInput } from "@/ui/elements/number-input";
 import { ResourceCost } from "@/ui/elements/resource-cost";
 import { getBlockTimestamp } from "@/utils/timestamp";
 import {
-  canTransferMilitaryResources,
-  divideByPrecision,
-  getBalance,
-  isMilitaryResource,
-} from "@bibliothecadao/eternum";
-import { ID, RESOURCE_TIERS, resources, ResourcesIds } from "@bibliothecadao/types";
-import { useDojo } from "@bibliothecadao/react";
+    canTransferMilitaryResources,
+    divideByPrecision,
+    getBalance,
+    isMilitaryResource,
+} from "@frontboat/eternum";
+import { useDojo } from "@frontboat/react";
+import { ID, RESOURCE_TIERS, resources, ResourcesIds } from "@frontboat/types";
 import { useMemo } from "react";
 
 export const SelectResources = ({

@@ -1,6 +1,6 @@
-import { TileOccupier, type Tile } from "@bibliothecadao/types";
 import { useEntityQuery } from "@dojoengine/react";
 import { getComponentValue, Has, HasValue } from "@dojoengine/recs";
+import { TileOccupier, type Tile } from "@frontboat/types";
 import { useDojo } from "../context";
 
 export const useQuests = () => {

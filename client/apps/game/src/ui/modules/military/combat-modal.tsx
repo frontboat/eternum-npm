@@ -1,6 +1,6 @@
 import { ModalContainer } from "@/ui/components/modal-container";
 import { LoadingAnimation } from "@/ui/elements/loading-animation";
-import { ID } from "@bibliothecadao/types";
+import { ID } from "@frontboat/types";
 import { Suspense, useState } from "react";
 import { AttackContainer } from "./attack-container";
 

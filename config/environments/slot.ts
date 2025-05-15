@@ -6,7 +6,7 @@
  * @see {@link CommonEternumGlobalConfig} for base configuration
  */
 
-import type { Config } from "@bibliothecadao/types";
+import type { Config } from "@frontboat/types";
 import { EternumGlobalConfig as CommonEternumGlobalConfig } from "./_shared_";
 
 /**

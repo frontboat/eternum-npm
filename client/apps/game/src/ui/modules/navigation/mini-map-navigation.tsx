@@ -1,7 +1,7 @@
 import { ReactComponent as CollapseIcon } from "@/assets/icons/common/collapse.svg";
 import { ReactComponent as ExpandIcon } from "@/assets/icons/common/expand.svg";
 import { useUIStore } from "@/hooks/store/use-ui-store";
-import { ResourcesIds } from "@bibliothecadao/types";
+import { ResourcesIds } from "@frontboat/types";
 import { useEffect, useRef, useState } from "react";
 
 // Define entity types for the toggle controls

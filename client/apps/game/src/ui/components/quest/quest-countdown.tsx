@@ -1,4 +1,4 @@
-import { formatTime } from "@bibliothecadao/eternum";
+import { formatTime } from "@frontboat/eternum";
 import { useEffect, useState } from "react";
 
 export const QuestCountdown = ({ endTimestamp }: { endTimestamp: number }) => {

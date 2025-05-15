@@ -1,4 +1,4 @@
-import { EternumProvider, ResourceWhitelistConfig } from "@bibliothecadao/eternum";
+import { EternumProvider, ResourceWhitelistConfig } from "@frontboat/eternum";
 import { Account } from "starknet";
 import { Chain, getGameManifest, getSeasonAddresses } from "../../../../utils/utils";
 

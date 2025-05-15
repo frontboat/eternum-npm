@@ -4,7 +4,7 @@ import InstancedModel from "@/three/managers/instanced-model";
 import { StructureModelPaths } from "@/three/scenes/constants";
 import { CameraView, HexagonScene } from "@/three/scenes/hexagon-scene";
 import { FELT_CENTER } from "@/ui/config";
-import { getLevelName, ID, ResourcesIds, StructureType } from "@bibliothecadao/types";
+import { getLevelName, ID, ResourcesIds, StructureType } from "@frontboat/types";
 import * as THREE from "three";
 import { CSS2DObject } from "three/examples/jsm/renderers/CSS2DRenderer.js";
 import { StructureInfo, StructureSystemUpdate } from "../types";

@@ -1,12 +1,12 @@
-import { FELT_CENTER as SETTLEMENT_CENTER } from "@bibliothecadao/types";
+import { FELT_CENTER as SETTLEMENT_CENTER } from "@frontboat/types";
 import { useCallback, useEffect, useRef, useState } from "react";
 import {
-  MAX_ZOOM_LEVEL,
-  MAX_ZOOM_RANGE,
-  MIN_ZOOM_LEVEL,
-  MIN_ZOOM_RANGE,
-  MINIMAP_HEIGHT,
-  MINIMAP_WIDTH,
+    MAX_ZOOM_LEVEL,
+    MAX_ZOOM_RANGE,
+    MIN_ZOOM_LEVEL,
+    MIN_ZOOM_RANGE,
+    MINIMAP_HEIGHT,
+    MINIMAP_WIDTH,
 } from "./settlement-constants";
 import { MapViewState, SettlementLocation } from "./settlement-types";
 import { normalizedToContractCoords } from "./settlement-utils";

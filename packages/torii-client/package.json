@@ -1,5 +1,5 @@
 {
-  "name": "@bibliothecadao/torii-client",
+  "name": "@frontboat/torii-client",
   "version": "0.2.0",
   "description": "Torii Client Queries for Eternum",
   "license": "MIT",
@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@dojoengine/sdk": "catalog:",
-    "@bibliothecadao/types": "workspace:*"
+    "@frontboat/types": "workspace:*"
   },
   "devDependencies": {
     "@types/node": "^20.11.10",

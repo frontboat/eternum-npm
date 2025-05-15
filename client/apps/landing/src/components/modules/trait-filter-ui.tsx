@@ -2,7 +2,7 @@ import { Badge } from "@/components/ui/badge";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { RESOURCE_RARITY, ResourcesIds } from "@bibliothecadao/types";
+import { RESOURCE_RARITY, ResourcesIds } from "@frontboat/types";
 import { X } from "lucide-react";
 import { ResourceIcon } from "../ui/elements/resource-icon";
 

@@ -1,7 +1,7 @@
-import { ResourcesIds } from "@bibliothecadao/types";
-import { computeTrades, getEntityIdFromKeys } from "@bibliothecadao/eternum";
 import { useEntityQuery } from "@dojoengine/react";
 import { HasValue } from "@dojoengine/recs";
+import { computeTrades, getEntityIdFromKeys } from "@frontboat/eternum";
+import { ResourcesIds } from "@frontboat/types";
 import { useMemo } from "react";
 import { useDojo, usePlayerOwnedRealmEntities, usePlayerOwnedVillageEntities } from "../";
 

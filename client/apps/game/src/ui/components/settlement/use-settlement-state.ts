@@ -1,4 +1,4 @@
-import { useDojo } from "@bibliothecadao/react";
+import { useDojo } from "@frontboat/react";
 import { useEffect } from "react";
 import { SettlementLocation } from "./settlement-types";
 import useSettlementStore from "./settlementStore";

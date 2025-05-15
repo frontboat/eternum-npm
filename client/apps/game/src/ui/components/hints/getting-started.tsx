@@ -1,6 +1,6 @@
 import { Headline } from "@/ui/elements/headline";
-import { configManager } from "@bibliothecadao/eternum";
-import { TickIds } from "@bibliothecadao/types";
+import { configManager } from "@frontboat/eternum";
+import { TickIds } from "@frontboat/types";
 import { tableOfContents } from "./utils";
 
 export const GettingStarted = () => {

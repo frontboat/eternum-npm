@@ -1,11 +1,11 @@
 import { useUIStore } from "@/hooks/store/use-ui-store";
 import { ResourceWeight } from "@/ui/components/resources/travel-info";
 import { ResourceIcon } from "@/ui/elements/resource-icon";
-import { configManager, getRealmInfo } from "@bibliothecadao/eternum";
-import { useDojo } from "@bibliothecadao/react";
-import { BuildingType } from "@bibliothecadao/types";
 import { useComponentValue } from "@dojoengine/react";
 import { getEntityIdFromKeys } from "@dojoengine/utils";
+import { configManager, getRealmInfo } from "@frontboat/eternum";
+import { useDojo } from "@frontboat/react";
+import { BuildingType } from "@frontboat/types";
 import clsx from "clsx";
 import { useMemo } from "react";
 import { CircularProgress } from "./top-left-navigation";

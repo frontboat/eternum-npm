@@ -48,6 +48,6 @@ export default defineConfig({
     },
   },
   optimizeDeps: {
-    exclude: ["js-big-decimal", "@bibliothecadao/eternum"],
+    exclude: ["js-big-decimal", "@frontboat/eternum"],
   },
 });

@@ -1,4 +1,4 @@
-import { FELT_CENTER as SETTLEMENT_CENTER } from "@bibliothecadao/types";
+import { FELT_CENTER as SETTLEMENT_CENTER } from "@frontboat/types";
 import { useEffect, useRef, useState } from "react";
 import { BANK_ICON_PATH, COLORS, LEGEND_ITEMS, PI } from "./settlement-constants";
 import { SettlementLocation } from "./settlement-types";

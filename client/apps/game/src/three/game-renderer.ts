@@ -5,19 +5,19 @@ import HexceptionScene from "@/three/scenes/hexception";
 import HUDScene from "@/three/scenes/hud-scene";
 import WorldmapScene from "@/three/scenes/worldmap";
 import { GRAPHICS_SETTING, GraphicsSettings, IS_FLAT_MODE } from "@/ui/config";
-import { SetupResult } from "@bibliothecadao/dojo";
+import { SetupResult } from "@frontboat/dojo";
 import throttle from "lodash/throttle";
 import {
-  BloomEffect,
-  BrightnessContrastEffect,
-  EffectComposer,
-  EffectPass,
-  FXAAEffect,
-  HueSaturationEffect,
-  RenderPass,
-  ToneMappingEffect,
-  ToneMappingMode,
-  VignetteEffect,
+    BloomEffect,
+    BrightnessContrastEffect,
+    EffectComposer,
+    EffectPass,
+    FXAAEffect,
+    HueSaturationEffect,
+    RenderPass,
+    ToneMappingEffect,
+    ToneMappingMode,
+    VignetteEffect,
 } from "postprocessing";
 import * as THREE from "three";
 import { CSS2DRenderer } from "three-stdlib";

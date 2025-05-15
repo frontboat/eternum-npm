@@ -1,11 +1,11 @@
 import { LoadingAnimation } from "@/ui/elements/loading-animation";
 import { getEntityIdFromKeys } from "@/ui/utils/utils";
 import { getBlockTimestamp } from "@/utils/timestamp";
-import { getGuardsByStructure, ResourceManager, StaminaManager } from "@bibliothecadao/eternum";
-import { useDojo } from "@bibliothecadao/react";
-import { getExplorerFromToriiClient, getStructureFromToriiClient } from "@bibliothecadao/torii-client";
-import { ID, Resource, STEALABLE_RESOURCES, StructureType, Troops } from "@bibliothecadao/types";
 import { useComponentValue } from "@dojoengine/react";
+import { getGuardsByStructure, ResourceManager, StaminaManager } from "@frontboat/eternum";
+import { useDojo } from "@frontboat/react";
+import { getExplorerFromToriiClient, getStructureFromToriiClient } from "@frontboat/torii-client";
+import { ID, Resource, STEALABLE_RESOURCES, StructureType, Troops } from "@frontboat/types";
 import { useEffect, useState } from "react";
 import { CombatContainer } from "./combat-container";
 import { RaidContainer } from "./raid-container";

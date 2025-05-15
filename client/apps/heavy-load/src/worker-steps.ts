@@ -1,15 +1,15 @@
-import { ResourcesIds } from "@bibliothecadao/eternum";
+import { ResourcesIds } from "@frontboat/eternum";
 import { Account } from "starknet";
 import { parentPort } from "worker_threads";
 import { CONFIG } from "./config";
 import { getExplorerEntityIds, getRealmEntityIds } from "./queries";
 import {
-  createBuildings,
-  createExplorerArmy,
-  createMarketOrders,
-  createRealm,
-  levelUpRealms,
-  moveExplorer,
+    createBuildings,
+    createExplorerArmy,
+    createMarketOrders,
+    createRealm,
+    levelUpRealms,
+    moveExplorer,
 } from "./system-calls";
 
 export function reportProgress(

@@ -1,10 +1,10 @@
-import { world } from "@bibliothecadao/types";
 import { DojoConfig } from "@dojoengine/core";
+import { world } from "@frontboat/types";
 
 import { createClient } from "@dojoengine/sdk";
 
-import { EternumProvider } from "@bibliothecadao/provider";
-import { defineContractComponents } from "@bibliothecadao/types";
+import { EternumProvider } from "@frontboat/provider";
+import { defineContractComponents } from "@frontboat/types";
 
 // Define an explicit interface for the return type
 interface SetupNetworkExplicitReturn {

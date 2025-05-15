@@ -1,9 +1,9 @@
 import { useUIStore } from "@/hooks/store/use-ui-store";
 import { ResourceIcon } from "@/ui/elements/resource-icon";
 import { SelectResource } from "@/ui/elements/select-resource";
-import { configManager, getRealmNameById, unpackValue } from "@bibliothecadao/eternum";
-import { useAllRealms } from "@bibliothecadao/react";
-import { ResourcesIds } from "@bibliothecadao/types";
+import { configManager, getRealmNameById, unpackValue } from "@frontboat/eternum";
+import { useAllRealms } from "@frontboat/react";
+import { ResourcesIds } from "@frontboat/types";
 import { useMemo, useState } from "react";
 
 export const RealmProduction = () => {

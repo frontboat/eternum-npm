@@ -1,7 +1,7 @@
 import Button from "@/ui/elements/button";
-import { useDojo, useExplorersByStructure } from "@bibliothecadao/react";
-import { ArmyInfo, ClientComponents, Structure } from "@bibliothecadao/types";
 import { ComponentValue } from "@dojoengine/recs";
+import { useDojo, useExplorersByStructure } from "@frontboat/react";
+import { ArmyInfo, ClientComponents, Structure } from "@frontboat/types";
 import { GameScore } from "metagame-sdk";
 import { useMemo } from "react";
 import { QuestReward } from "../resources/quest-reward";

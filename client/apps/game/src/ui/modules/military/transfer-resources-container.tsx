@@ -1,9 +1,9 @@
 import Button from "@/ui/elements/button";
 import { ResourceIcon } from "@/ui/elements/resource-icon";
 import { getBlockTimestamp } from "@/utils/timestamp";
-import { ResourceManager, configManager, divideByPrecision, getArmy } from "@bibliothecadao/eternum";
-import { useDojo } from "@bibliothecadao/react";
-import { ContractAddress, ID, ResourcesIds, resources } from "@bibliothecadao/types";
+import { ResourceManager, configManager, divideByPrecision, getArmy } from "@frontboat/eternum";
+import { useDojo } from "@frontboat/react";
+import { ContractAddress, ID, ResourcesIds, resources } from "@frontboat/types";
 import { useState } from "react";
 import { TransferDirection } from "./transfer-troops-container";
 

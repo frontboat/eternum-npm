@@ -1,14 +1,14 @@
 import { IS_FLAT_MODE } from "@/ui/config";
 import {
-  BiomeType,
-  BuildingType,
-  QuestType,
-  RealmLevelNames,
-  RealmLevels,
-  ResourceMiningTypes,
-  ResourcesIds,
-  StructureType,
-} from "@bibliothecadao/types";
+    BiomeType,
+    BuildingType,
+    QuestType,
+    RealmLevelNames,
+    RealmLevels,
+    ResourceMiningTypes,
+    ResourcesIds,
+    StructureType,
+} from "@frontboat/types";
 import * as THREE from "three";
 import { HyperstructureTypesNames, StructureProgress } from "../types";
 

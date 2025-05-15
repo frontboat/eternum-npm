@@ -1,4 +1,4 @@
-import { BuildingType } from "@bibliothecadao/types";
+import { BuildingType } from "@frontboat/types";
 
 export function unpackValue(packedValue: bigint): number[] {
   const MAX_BITS_PER_VALUE = 8;

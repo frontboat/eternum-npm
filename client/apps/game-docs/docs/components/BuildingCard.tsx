@@ -1,5 +1,5 @@
 import { ETERNUM_CONFIG } from "@/utils/config";
-import { BuildingType, resources } from "@bibliothecadao/types";
+import { BuildingType, resources } from "@frontboat/types";
 import BuildingCosts from "./BuildingCosts";
 import ResourceIcon from "./ResourceIcon";
 import { colors } from "./styles";

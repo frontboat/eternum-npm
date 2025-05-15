@@ -1,6 +1,6 @@
-import { ClientComponents, ContractAddress, ID, ResourcesIds } from "@bibliothecadao/types";
 import { getComponentValue, HasValue, runQuery, type ComponentValue } from "@dojoengine/recs";
 import { getEntityIdFromKeys } from "@dojoengine/utils";
+import { ClientComponents, ContractAddress, ID, ResourcesIds } from "@frontboat/types";
 import { configManager } from "./config-manager";
 
 export class MarketManager {

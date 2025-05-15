@@ -3,7 +3,7 @@
  * Based on https://www.redblobgames.com/grids/hexagons/
  */
 
-import { Direction, TileOccupier } from "@bibliothecadao/types";
+import { Direction, TileOccupier } from "@frontboat/types";
 
 // Helper function to get all directions
 export function getAllHexDirections(): Direction[] {

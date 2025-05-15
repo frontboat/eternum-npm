@@ -1,5 +1,5 @@
-import { ContractComponents } from "@bibliothecadao/types";
 import { Entity, getComponentValue } from "@dojoengine/recs";
+import { ContractComponents } from "@frontboat/types";
 
 // TODO: only workaround for now
 export const handleExplorerTroopsIfDeletion = async (

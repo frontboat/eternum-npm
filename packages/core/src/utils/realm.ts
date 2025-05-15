@@ -1,16 +1,16 @@
 import { Entity, getComponentValue } from "@dojoengine/recs";
+import {
+    ClientComponents,
+    findResourceIdByTrait,
+    ID,
+    orders,
+    RealmInfo,
+    RealmInterface,
+    RealmWithPosition,
+    StructureType,
+} from "@frontboat/types";
 import { configManager, getAddressNameFromEntity, getEntityName, ResourceManager } from "..";
 import realmsJson from "../data/realms.json";
-import {
-  findResourceIdByTrait,
-  orders,
-  StructureType,
-  ClientComponents,
-  ID,
-  RealmInfo,
-  RealmInterface,
-  RealmWithPosition,
-} from "@bibliothecadao/types";
 import { packValues, unpackValue } from "./packed-data";
 
 export const getRealmWithPosition = (entity: Entity, components: ClientComponents) => {

@@ -1,5 +1,5 @@
 import { useUIStore } from "@/hooks/store/use-ui-store";
-import { ResourcesIds } from "@bibliothecadao/types";
+import { ResourcesIds } from "@frontboat/types";
 import { useCallback } from "react";
 import useSound from "use-sound";
 

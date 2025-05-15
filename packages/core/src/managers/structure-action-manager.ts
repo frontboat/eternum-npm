@@ -2,13 +2,13 @@ import { getComponentValue, type Entity } from "@dojoengine/recs";
 import { getEntityIdFromKeys } from "@dojoengine/utils";
 import {
   BiomeType,
-  FELT_CENTER,
-  getNeighborHexes,
   ClientComponents,
   ContractAddress,
+  FELT_CENTER,
+  getNeighborHexes,
   HexEntityInfo,
   ID,
-} from "@bibliothecadao/types";
+} from "@frontboat/types";
 import { ActionPath, ActionPaths, ActionType } from "../utils/action-paths";
 
 export class StructureActionManager {

@@ -1,5 +1,5 @@
 import { Position } from "@/types/position";
-import { BiomeType, getNeighborOffsets, HexEntityInfo, HexPosition } from "@bibliothecadao/types";
+import { BiomeType, getNeighborOffsets, HexEntityInfo, HexPosition } from "@frontboat/types";
 
 interface Node {
   col: number;

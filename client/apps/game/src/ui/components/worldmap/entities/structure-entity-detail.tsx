@@ -1,19 +1,19 @@
 import {
-  getAddressName,
-  getGuardsByStructure,
-  getGuildFromPlayerAddress,
-  getHyperstructureProgress,
-  getRealmNameById,
-  getStructureTypeName,
-  unpackValue,
-} from "@bibliothecadao/eternum";
+    getAddressName,
+    getGuardsByStructure,
+    getGuildFromPlayerAddress,
+    getHyperstructureProgress,
+    getRealmNameById,
+    getStructureTypeName,
+    unpackValue,
+} from "@frontboat/eternum";
 
 import { useChatStore } from "@/ui/modules/ws-chat/useChatStore";
 import { displayAddress } from "@/ui/utils/utils";
-import { useDojo } from "@bibliothecadao/react";
-import { getStructureFromToriiClient } from "@bibliothecadao/torii-client";
-import { ClientComponents, ContractAddress, GuildInfo, ID, MERCENARIES, StructureType } from "@bibliothecadao/types";
 import { ComponentValue } from "@dojoengine/recs";
+import { useDojo } from "@frontboat/react";
+import { getStructureFromToriiClient } from "@frontboat/torii-client";
+import { ClientComponents, ContractAddress, GuildInfo, ID, MERCENARIES, StructureType } from "@frontboat/types";
 import { MessageCircle } from "lucide-react";
 import { memo, useEffect, useMemo, useState } from "react";
 import { CompactDefenseDisplay } from "../../military/compact-defense-display";

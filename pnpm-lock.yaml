@@ -120,10 +120,10 @@ importers:
         specifier: ^2.24.3
         version: 2.29.2(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.24.4)
     devDependencies:
-      '@bibliothecadao/eternum':
+      '@frontboat/eternum':
         specifier: workspace:^
         version: link:packages/core
-      '@bibliothecadao/react':
+      '@frontboat/react':
         specifier: workspace:^
         version: link:packages/react
       '@types/node':
@@ -259,16 +259,16 @@ importers:
 
   client/apps/eternum-mobile:
     dependencies:
-      '@bibliothecadao/dojo':
+      '@frontboat/dojo':
         specifier: workspace:*
         version: link:../../../packages/dojo
-      '@bibliothecadao/eternum':
+      '@frontboat/eternum':
         specifier: workspace:*
         version: link:../../../packages/core
-      '@bibliothecadao/provider':
+      '@frontboat/provider':
         specifier: workspace:*
         version: link:../../../packages/provider
-      '@bibliothecadao/types':
+      '@frontboat/types':
         specifier: workspace:*
         version: link:../../../packages/types
       '@dojoengine/core':
@@ -404,19 +404,19 @@ importers:
 
   client/apps/game:
     dependencies:
-      '@bibliothecadao/dojo':
+      '@frontboat/dojo':
         specifier: workspace:*
         version: link:../../../packages/dojo
-      '@bibliothecadao/eternum':
+      '@frontboat/eternum':
         specifier: workspace:*
         version: link:../../../packages/core
-      '@bibliothecadao/provider':
+      '@frontboat/provider':
         specifier: workspace:*
         version: link:../../../packages/provider
-      '@bibliothecadao/torii-client':
+      '@frontboat/torii-client':
         specifier: workspace:*
         version: link:../../../packages/torii-client
-      '@bibliothecadao/types':
+      '@frontboat/types':
         specifier: workspace:*
         version: link:../../../packages/types
       '@dojoengine/core':
@@ -549,7 +549,7 @@ importers:
 
   client/apps/game-docs:
     dependencies:
-      '@bibliothecadao/types':
+      '@frontboat/types':
         specifier: workspace:*
         version: link:../../../packages/types
       fast-glob:
@@ -579,7 +579,7 @@ importers:
 
   client/apps/heavy-load:
     dependencies:
-      '@bibliothecadao/eternum':
+      '@frontboat/eternum':
         specifier: workspace:*
         version: link:../../../packages/core
       '@dojoengine/core':
@@ -616,19 +616,19 @@ importers:
       '@ark-project/react':
         specifier: 2.0.0-beta.2
         version: 2.0.0-beta.2(encoding@0.1.13)(typescript@5.8.3)(viem@2.29.2(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.24.4))
-      '@bibliothecadao/dojo':
+      '@frontboat/dojo':
         specifier: workspace:*
         version: link:../../../packages/dojo
-      '@bibliothecadao/eternum':
+      '@frontboat/eternum':
         specifier: workspace:*
         version: link:../../../packages/core
-      '@bibliothecadao/provider':
+      '@frontboat/provider':
         specifier: workspace:*
         version: link:../../../packages/provider
-      '@bibliothecadao/react':
+      '@frontboat/react':
         specifier: workspace:*
         version: link:../../../packages/react
-      '@bibliothecadao/types':
+      '@frontboat/types':
         specifier: workspace:*
         version: link:../../../packages/types
       '@dojoengine/core':
@@ -794,10 +794,10 @@ importers:
 
   config:
     dependencies:
-      '@bibliothecadao/provider':
+      '@frontboat/provider':
         specifier: workspace:*
         version: link:../packages/provider
-      '@bibliothecadao/types':
+      '@frontboat/types':
         specifier: workspace:*
         version: link:../packages/types
       '@dojoengine/core':
@@ -819,13 +819,13 @@ importers:
 
   packages/core:
     dependencies:
-      '@bibliothecadao/dojo':
+      '@frontboat/dojo':
         specifier: workspace:*
         version: link:../dojo
-      '@bibliothecadao/provider':
+      '@frontboat/provider':
         specifier: workspace:*
         version: link:../provider
-      '@bibliothecadao/types':
+      '@frontboat/types':
         specifier: workspace:*
         version: link:../types
       '@dojoengine/core':
@@ -868,10 +868,10 @@ importers:
 
   packages/dojo:
     dependencies:
-      '@bibliothecadao/provider':
+      '@frontboat/provider':
         specifier: workspace:*
         version: link:../provider
-      '@bibliothecadao/types':
+      '@frontboat/types':
         specifier: workspace:*
         version: link:../types
       '@dojoengine/core':
@@ -917,7 +917,7 @@ importers:
 
   packages/provider:
     dependencies:
-      '@bibliothecadao/types':
+      '@frontboat/types':
         specifier: workspace:*
         version: link:../types
       '@dojoengine/core':
@@ -957,13 +957,13 @@ importers:
 
   packages/react:
     dependencies:
-      '@bibliothecadao/dojo':
+      '@frontboat/dojo':
         specifier: workspace:*
         version: link:../dojo
-      '@bibliothecadao/eternum':
+      '@frontboat/eternum':
         specifier: workspace:*
         version: link:../core
-      '@bibliothecadao/types':
+      '@frontboat/types':
         specifier: workspace:*
         version: link:../types
       '@dojoengine/react':
@@ -1000,7 +1000,7 @@ importers:
 
   packages/torii-client:
     dependencies:
-      '@bibliothecadao/types':
+      '@frontboat/types':
         specifier: workspace:*
         version: link:../types
       '@dojoengine/sdk':

@@ -1,6 +1,6 @@
 import { ComponentValue } from "@dojoengine/recs";
+import { ClientComponents, Resource } from "@frontboat/types";
 import { ClientConfigManager, configManager } from "..";
-import { ClientComponents, Resource } from "@bibliothecadao/types";
 import { divideByPrecision } from "../../utils";
 
 function computeInitialContributionPoints(

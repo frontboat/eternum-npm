@@ -1,7 +1,7 @@
 import { HintSection } from "@/ui/components/hints/hint-modal";
 import { Headline } from "@/ui/elements/headline";
 import { HintModalButton } from "@/ui/elements/hint-modal-button";
-import { usePlayerStructures } from "@bibliothecadao/react";
+import { usePlayerStructures } from "@frontboat/react";
 import { memo } from "react";
 import { StructureArrivals } from "../resources/resource-arrival";
 

@@ -1,7 +1,7 @@
-import { getRealmInfo } from "@bibliothecadao/eternum";
-import { ClientComponents, ContractAddress, RealmInfo, StructureType } from "@bibliothecadao/types";
 import { useEntityQuery } from "@dojoengine/react";
 import { ComponentValue, getComponentValue, Has, HasValue } from "@dojoengine/recs";
+import { getRealmInfo } from "@frontboat/eternum";
+import { ClientComponents, ContractAddress, RealmInfo, StructureType } from "@frontboat/types";
 import { useMemo } from "react";
 import { useDojo } from "../context";
 

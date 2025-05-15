@@ -3,8 +3,8 @@ import { Button } from "@/shared/ui/button";
 import { Card } from "@/shared/ui/card";
 import { ResourceAmount } from "@/shared/ui/resource-amount";
 import { ResourceIcon } from "@/shared/ui/resource-icon";
-import { divideByPrecision, formatTime } from "@bibliothecadao/eternum";
-import { ResourceArrivalInfo, ResourcesIds } from "@bibliothecadao/types";
+import { divideByPrecision, formatTime } from "@frontboat/eternum";
+import { ResourceArrivalInfo, ResourcesIds } from "@frontboat/types";
 import { useEffect, useMemo, useState } from "react";
 
 interface ClaimProps {

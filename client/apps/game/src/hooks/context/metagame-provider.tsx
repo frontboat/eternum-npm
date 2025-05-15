@@ -1,4 +1,4 @@
-import { useDojo } from "@bibliothecadao/react";
+import { useDojo } from "@frontboat/react";
 import { useProvider } from "@starknet-react/core";
 import { initMetagame, MetagameClient, MetagameProvider as MetagameProviderSDK } from "metagame-sdk";
 import { ReactNode, useEffect, useState } from "react";

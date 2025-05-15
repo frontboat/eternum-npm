@@ -1,4 +1,4 @@
-import { ResourcesIds } from "@bibliothecadao/types";
+import { ResourcesIds } from "@frontboat/types";
 
 export const LORDS_LIQUIDITY_PER_RESOURCE = 2_000;
 

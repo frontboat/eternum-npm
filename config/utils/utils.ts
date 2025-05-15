@@ -1,4 +1,4 @@
-import type { Config } from "@bibliothecadao/types";
+import type { Config } from "@frontboat/types";
 import localConfig from "../environments/data/local.json";
 import mainnetConfig from "../environments/data/mainnet.json";
 import sepoliaConfig from "../environments/data/sepolia.json";

@@ -1,4 +1,4 @@
-import { getContractByName, NAMESPACE } from "@bibliothecadao/eternum";
+import { getContractByName, NAMESPACE } from "@frontboat/eternum";
 
 process.env.VITE_PUBLIC_NETWORK = process.env.VITE_PUBLIC_NETWORK || "local";
 const manifest =

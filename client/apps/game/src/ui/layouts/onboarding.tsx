@@ -6,8 +6,8 @@ import { SeasonPassRealm, getUnusedSeasonPasses } from "@/ui/components/cityview
 import Button from "@/ui/elements/button";
 import { TermsOfService } from "@/ui/layouts/terms-of-service";
 import { LocalStepOne, SettleRealm, StepOne } from "@/ui/modules/onboarding/steps";
-import { useDojo, usePlayerOwnedRealmEntities, usePlayerOwnedVillageEntities } from "@bibliothecadao/react";
 import { getComponentValue } from "@dojoengine/recs";
+import { useDojo, usePlayerOwnedRealmEntities, usePlayerOwnedVillageEntities } from "@frontboat/react";
 import { motion } from "framer-motion";
 import { Castle, FileText, MessageSquare, Play, Twitter as TwitterIcon } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";

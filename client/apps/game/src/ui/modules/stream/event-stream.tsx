@@ -1,10 +1,10 @@
 import { Position } from "@/types/position";
 import { NavigateToPositionIcon } from "@/ui/components/military/army-chip";
 import { ViewOnMapIcon } from "@/ui/elements/view-on-map-icon";
-import { ContractAddress, ID, world } from "@bibliothecadao/types";
-import { getAddressFromStructureEntity } from "@bibliothecadao/eternum";
-import { useDojo } from "@bibliothecadao/react";
 import { Component, defineComponentSystem, Entity, getComponentValue, World } from "@dojoengine/recs";
+import { getAddressFromStructureEntity } from "@frontboat/eternum";
+import { useDojo } from "@frontboat/react";
+import { ContractAddress, ID, world } from "@frontboat/types";
 import { useCallback, useEffect, useState } from "react";
 import { MessageIcon } from "../social/player-id";
 import { EVENT_NOTIF_STORAGE_KEY, EVENT_STREAM_SIZE } from "./constants";

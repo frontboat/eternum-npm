@@ -1,7 +1,7 @@
 import { getBlockTimestamp } from "@/shared/hooks/use-block-timestamp";
 import useStore from "@/shared/store";
-import { configManager, divideByPrecision, multiplyByPrecision } from "@bibliothecadao/eternum";
-import { useResourceManager } from "@bibliothecadao/react";
+import { configManager, divideByPrecision, multiplyByPrecision } from "@frontboat/eternum";
+import { useResourceManager } from "@frontboat/react";
 import { useCallback, useMemo, useState } from "react";
 import { calculateLaborAmount } from "../lib/labor";
 import { SelectedResource } from "./types";

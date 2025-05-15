@@ -1,4 +1,4 @@
-import { FELT_CENTER } from "@bibliothecadao/types";
+import { FELT_CENTER } from "@frontboat/types";
 
 export class Position {
   private x: number;

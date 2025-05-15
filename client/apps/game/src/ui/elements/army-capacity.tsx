@@ -1,8 +1,8 @@
 import { ReactComponent as Inventory } from "@/assets/icons/common/bagpack.svg";
 import { useUIStore } from "@/hooks/store/use-ui-store";
-import { configManager, getArmyTotalCapacityInKg, getRemainingCapacityInKg } from "@bibliothecadao/eternum";
-import { ClientComponents } from "@bibliothecadao/types";
 import { ComponentValue } from "@dojoengine/recs";
+import { configManager, getArmyTotalCapacityInKg, getRemainingCapacityInKg } from "@frontboat/eternum";
+import { ClientComponents } from "@frontboat/types";
 import { useMemo } from "react";
 import { formatNumber, formatStringNumber } from "../utils/utils";
 

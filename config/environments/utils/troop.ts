@@ -1,4 +1,4 @@
-import { ResourcesIds } from "@bibliothecadao/types";
+import { ResourcesIds } from "@frontboat/types";
 
 export const TROOP_DAMAGE_RAID_PERCENT_NUM = 1_000; //10%
 

@@ -1,4 +1,4 @@
-import { ResourcesIds } from "@bibliothecadao/types";
+import { ResourcesIds } from "@frontboat/types";
 import clsx from "clsx";
 import type { ReactElement } from "react";
 

@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { useMarketplace } from "@/hooks/use-marketplace";
 import { useSelectedPassesStore } from "@/stores/selected-passes";
-import { RESOURCE_RARITY, ResourcesIds } from "@bibliothecadao/types";
+import { RESOURCE_RARITY, ResourcesIds } from "@frontboat/types";
 import { useAccount, useConnect } from "@starknet-react/core";
 import { formatUnits, parseEther } from "viem";
 import { ResourceIcon } from "../ui/elements/resource-icon";

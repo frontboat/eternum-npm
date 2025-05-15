@@ -1,4 +1,4 @@
-import { ResourceArrivalInfo } from "@bibliothecadao/types";
+import { ResourceArrivalInfo } from "@frontboat/types";
 
 export interface ResourceArrivalsState {
   structureEntityId: string | null;

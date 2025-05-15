@@ -1,6 +1,6 @@
 import { trimAddress } from "@/lib/utils";
 import { RealmMetadata } from "@/types";
-import { ContractAddress, HexPosition, ID } from "@bibliothecadao/types";
+import { ContractAddress, HexPosition, ID } from "@frontboat/types";
 import { env } from "../../../env";
 
 const API_BASE_URL = env.VITE_PUBLIC_TORII + "/sql";

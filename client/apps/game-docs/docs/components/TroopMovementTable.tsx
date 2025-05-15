@@ -1,6 +1,6 @@
 import { ETERNUM_CONFIG } from "@/utils/config";
 import { formatNumberWithCommas } from "@/utils/formatting";
-import { CapacityConfig, ResourcesIds } from "@bibliothecadao/types";
+import { CapacityConfig, ResourcesIds } from "@frontboat/types";
 import { icon, section, stats, table } from "./styles";
 
 // Helper functions for troop information

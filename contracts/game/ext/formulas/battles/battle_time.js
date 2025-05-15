@@ -1,4 +1,4 @@
-import { Battle, Health, TroopConfig, TroopsSimulator as Troops } from "@bibliothecadao/eternum";
+import { Battle, Health, TroopConfig, TroopsSimulator as Troops } from "@frontboat/eternum";
 
 function main() {
   // Define troop configuration

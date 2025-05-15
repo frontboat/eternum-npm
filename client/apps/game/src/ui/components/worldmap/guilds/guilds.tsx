@@ -6,9 +6,9 @@ import { SortInterface } from "@/ui/elements/sort-button";
 import TextInput from "@/ui/elements/text-input";
 import { useSocialStore } from "@/ui/modules/social/socialStore";
 import { sortItems } from "@/ui/utils/utils";
-import { calculateGuildLordsPrize, getGuildFromPlayerAddress } from "@bibliothecadao/eternum";
-import { useDojo, useGuilds, usePlayerWhitelist } from "@bibliothecadao/react";
-import { ContractAddress, PlayerInfo } from "@bibliothecadao/types";
+import { calculateGuildLordsPrize, getGuildFromPlayerAddress } from "@frontboat/eternum";
+import { useDojo, useGuilds, usePlayerWhitelist } from "@frontboat/react";
+import { ContractAddress, PlayerInfo } from "@frontboat/types";
 import { ChevronRight } from "lucide-react";
 import { useMemo, useState } from "react";
 

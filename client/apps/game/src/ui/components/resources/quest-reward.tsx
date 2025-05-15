@@ -1,6 +1,6 @@
 import { ResourceIcon } from "@/ui/elements/resource-icon";
-import { ClientComponents, ResourcesIds } from "@bibliothecadao/types";
 import { ComponentValue } from "@dojoengine/recs";
+import { ClientComponents, ResourcesIds } from "@frontboat/types";
 import { currencyFormat } from "../../utils/utils";
 
 export const QuestReward = ({ quest }: { quest: ComponentValue<ClientComponents["QuestTile"]["schema"]> }) => {

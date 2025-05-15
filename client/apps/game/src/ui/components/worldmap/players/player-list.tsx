@@ -4,7 +4,7 @@ import { ResourceIcon } from "@/ui/elements/resource-icon";
 import { SortButton, SortInterface } from "@/ui/elements/sort-button";
 import { SortPanel } from "@/ui/elements/sort-panel";
 import { currencyIntlFormat, sortItems } from "@/ui/utils/utils";
-import { ContractAddress, GuildInfo, PlayerInfo, ResourcesIds } from "@bibliothecadao/types";
+import { ContractAddress, GuildInfo, PlayerInfo, ResourcesIds } from "@frontboat/types";
 import clsx from "clsx";
 import { User } from "lucide-react";
 import { useMemo, useState } from "react";

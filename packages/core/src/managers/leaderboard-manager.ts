@@ -1,6 +1,6 @@
-import { type ClientComponents, ContractAddress, type ID } from "@bibliothecadao/types";
 import { Has, getComponentValue, runQuery } from "@dojoengine/recs";
 import { getEntityIdFromKeys } from "@dojoengine/utils";
+import { type ClientComponents, ContractAddress, type ID } from "@frontboat/types";
 import { getGuildFromPlayerAddress } from "../utils";
 
 interface ContractAddressAndAmount {

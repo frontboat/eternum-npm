@@ -1,6 +1,6 @@
-import { ClientComponents, ContractAddress, ID } from "@bibliothecadao/types";
 import { useEntityQuery } from "@dojoengine/react";
 import { ComponentValue, HasValue, getComponentValue } from "@dojoengine/recs";
+import { ClientComponents, ContractAddress, ID } from "@frontboat/types";
 import { useDojo } from "../";
 
 export const usePlayerContributions = (playerAddress: ContractAddress, hyperstructureEntityId: ID) => {

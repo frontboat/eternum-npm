@@ -1,8 +1,8 @@
 import { ReactComponent as PlusIcon } from "@/assets/icons/common/plus-sign.svg";
 import Button from "@/ui/elements/button";
-import { ArmyManager } from "@bibliothecadao/eternum";
-import { DEFENSE_NAMES, ID, Troops } from "@bibliothecadao/types";
-import { useDojo } from "@bibliothecadao/react";
+import { ArmyManager } from "@frontboat/eternum";
+import { useDojo } from "@frontboat/react";
+import { DEFENSE_NAMES, ID, Troops } from "@frontboat/types";
 import { useCallback, useEffect, useState } from "react";
 import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd";
 import { ArmyCreate } from "./army-management-card";

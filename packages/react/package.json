@@ -1,5 +1,5 @@
 {
-	"name": "@bibliothecadao/react",
+	"name": "@frontboat/react",
 	"version": "0.1.0",
 	"type": "module",
 	"main": "./dist/index.js",
@@ -14,9 +14,9 @@
 		"dev": "tsup --watch"
 	},
 	"peerDependencies": {
-		"@bibliothecadao/eternum": "workspace:*",
-		"@bibliothecadao/types": "workspace:*",
-		"@bibliothecadao/dojo": "workspace:*",
+		"@frontboat/eternum": "workspace:*",
+		"@frontboat/types": "workspace:*",
+		"@frontboat/dojo": "workspace:*",
 		"@dojoengine/react": "catalog:",
 		"@starknet-react/core": "catalog:",
 		"react": "catalog:",

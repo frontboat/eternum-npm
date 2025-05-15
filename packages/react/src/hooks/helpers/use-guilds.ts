@@ -1,7 +1,7 @@
-import { formatGuildMembers, formatGuilds, getAddressName } from "@bibliothecadao/eternum";
-import { ContractAddress, type GuildMemberInfo } from "@bibliothecadao/types";
 import { useEntityQuery } from "@dojoengine/react";
 import { Has, HasValue, NotValue, getComponentValue } from "@dojoengine/recs";
+import { formatGuildMembers, formatGuilds, getAddressName } from "@frontboat/eternum";
+import { ContractAddress, type GuildMemberInfo } from "@frontboat/types";
 import { useDojo } from "../context";
 
 export const useGuilds = () => {

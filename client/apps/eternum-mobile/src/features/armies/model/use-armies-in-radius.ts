@@ -1,8 +1,8 @@
 import useStore from "@/shared/store";
-import { divideByPrecision } from "@bibliothecadao/eternum";
-import { useDojo } from "@bibliothecadao/react";
 import { AndComposeClause, MemberClause } from "@dojoengine/sdk";
 import { Query } from "@dojoengine/torii-wasm";
+import { divideByPrecision } from "@frontboat/eternum";
+import { useDojo } from "@frontboat/react";
 import { useEffect, useState } from "react";
 
 export interface Position {

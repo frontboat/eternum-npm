@@ -1,4 +1,4 @@
-import { TroopTier, TroopType } from "@bibliothecadao/types";
+import { TroopTier, TroopType } from "@frontboat/types";
 import { Map, Zap } from "lucide-react";
 
 export const getStaminaDisplay = (currentStamina: number, newStamina: number, staminaBonus: number) => {

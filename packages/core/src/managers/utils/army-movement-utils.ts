@@ -1,4 +1,4 @@
-import { ResourcesIds, TroopType, type Troops } from "@bibliothecadao/types";
+import { ResourcesIds, TroopType, type Troops } from "@frontboat/types";
 import { configManager } from "..";
 import { divideByPrecision } from "../../utils";
 

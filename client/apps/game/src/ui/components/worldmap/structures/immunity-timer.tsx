@@ -1,7 +1,7 @@
 import { useBlockTimestamp } from "@/hooks/helpers/use-block-timestamp";
-import { formatTime, getStructureImmunityTimer, isStructureImmune } from "@bibliothecadao/eternum";
-import { ClientComponents } from "@bibliothecadao/types";
 import { ComponentValue } from "@dojoengine/recs";
+import { formatTime, getStructureImmunityTimer, isStructureImmune } from "@frontboat/eternum";
+import { ClientComponents } from "@frontboat/types";
 import { useMemo } from "react";
 
 export const ImmunityTimer = ({

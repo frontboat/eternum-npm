@@ -1,4 +1,4 @@
-import { BuildingType, Direction, multiplyByPrecision, ResourcesIds } from "@bibliothecadao/eternum";
+import { BuildingType, Direction, multiplyByPrecision, ResourcesIds } from "@frontboat/eternum";
 import { Account, uint256 } from "starknet";
 import { provider } from "..";
 import { summary, SYSTEM_ADDRESSES } from "./config";

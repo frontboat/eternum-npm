@@ -1,9 +1,9 @@
 import { useUIStore } from "@/hooks/store/use-ui-store";
 import Button from "@/ui/elements/button";
 import { getBlockTimestamp } from "@/utils/timestamp";
-import { configManager, LeaderboardManager } from "@bibliothecadao/eternum";
-import { ContractAddress } from "@bibliothecadao/types";
-import { useDojo } from "@bibliothecadao/react";
+import { configManager, LeaderboardManager } from "@frontboat/eternum";
+import { useDojo } from "@frontboat/react";
+import { ContractAddress } from "@frontboat/types";
 import { useCallback, useMemo, useState } from "react";
 
 interface EndSeasonButtonProps {

@@ -1,6 +1,6 @@
 import { getStructuresDataFromTorii } from "@/dojo/queries";
 import { fetchStructuresByOwner } from "@/services/api";
-import { useDojo } from "@bibliothecadao/react";
+import { useDojo } from "@frontboat/react";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useUIStore } from "../store/use-ui-store";
 import { LoadingStateKey } from "../store/use-world-loading";

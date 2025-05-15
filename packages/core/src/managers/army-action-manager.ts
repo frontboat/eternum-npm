@@ -1,3 +1,5 @@
+import { type Entity, getComponentValue } from "@dojoengine/recs";
+import { getEntityIdFromKeys } from "@dojoengine/utils";
 import {
   type BiomeType,
   type ClientComponents,
@@ -12,9 +14,7 @@ import {
   ResourcesIds,
   type SystemCalls,
   type TroopType,
-} from "@bibliothecadao/types";
-import { type Entity, getComponentValue } from "@dojoengine/recs";
-import { getEntityIdFromKeys } from "@dojoengine/utils";
+} from "@frontboat/types";
 import type { Account, AccountInterface } from "starknet";
 import { divideByPrecision, getRemainingCapacityInKg } from "..";
 import { type ActionPath, ActionPaths, ActionType } from "../utils/action-paths";

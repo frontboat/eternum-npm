@@ -9,30 +9,30 @@ import { ResourceIcon } from "@/ui/elements/resource-icon";
 import { Tabs } from "@/ui/elements/tab";
 import { adjustWonderLordsCost, getEntityIdFromKeys } from "@/ui/utils/utils";
 import { getBlockTimestamp } from "@/utils/timestamp";
-import {
-  configManager,
-  divideByPrecision,
-  getBalance,
-  getBuildingCosts,
-  getConsumedBy,
-  getRealmInfo,
-  hasEnoughPopulationForBuilding,
-  ResourceIdToMiningType,
-} from "@bibliothecadao/eternum";
-import { useDojo } from "@bibliothecadao/react";
-import {
-  BuildingType,
-  BuildingTypeToString,
-  CapacityConfig,
-  findResourceById,
-  getBuildingFromResource,
-  ID,
-  isEconomyBuilding,
-  ResourceMiningTypes,
-  ResourcesIds,
-} from "@bibliothecadao/types";
 import { useComponentValue } from "@dojoengine/react";
 import { getComponentValue } from "@dojoengine/recs";
+import {
+    configManager,
+    divideByPrecision,
+    getBalance,
+    getBuildingCosts,
+    getConsumedBy,
+    getRealmInfo,
+    hasEnoughPopulationForBuilding,
+    ResourceIdToMiningType,
+} from "@frontboat/eternum";
+import { useDojo } from "@frontboat/react";
+import {
+    BuildingType,
+    BuildingTypeToString,
+    CapacityConfig,
+    findResourceById,
+    getBuildingFromResource,
+    ID,
+    isEconomyBuilding,
+    ResourceMiningTypes,
+    ResourcesIds,
+} from "@frontboat/types";
 import clsx from "clsx";
 import { ChevronDown, ChevronUp, InfoIcon } from "lucide-react";
 import React, { useMemo, useState } from "react";

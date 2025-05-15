@@ -4,26 +4,26 @@ import { RealmResourcesIO } from "@/ui/components/resources/realm-resources-io";
 import Button from "@/ui/elements/button";
 import { ResourceCost } from "@/ui/elements/resource-cost";
 import {
-  configManager,
-  divideByPrecision,
-  getBalance,
-  getEntityIdFromKeys,
-  unpackValue,
-} from "@bibliothecadao/eternum";
-import { useDojo } from "@bibliothecadao/react";
+    configManager,
+    divideByPrecision,
+    getBalance,
+    getEntityIdFromKeys,
+    unpackValue,
+} from "@frontboat/eternum";
+import { useDojo } from "@frontboat/react";
 import {
-  ContractAddress,
-  ID,
-  LEVEL_DESCRIPTIONS,
-  RealmLevels,
-  ResourcesIds,
-  StructureType,
-} from "@bibliothecadao/types";
+    ContractAddress,
+    ID,
+    LEVEL_DESCRIPTIONS,
+    RealmLevels,
+    ResourcesIds,
+    StructureType,
+} from "@frontboat/types";
 import { useEffect, useMemo, useState } from "react";
 // todo: fix this
 import { getBlockTimestamp } from "@/utils/timestamp";
-import { getSurroundingWonderBonusFromToriiClient } from "@bibliothecadao/torii-client";
 import { useComponentValue } from "@dojoengine/react";
+import { getSurroundingWonderBonusFromToriiClient } from "@frontboat/torii-client";
 import { ArrowUpRightIcon, CrownIcon, PlusIcon, SparklesIcon } from "lucide-react";
 
 const WONDER_BONUS_DISTANCE = 12;

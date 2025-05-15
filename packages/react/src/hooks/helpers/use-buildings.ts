@@ -1,7 +1,7 @@
-import { configManager } from "@bibliothecadao/eternum";
-import { Building, BuildingType, BuildingTypeToString, getProducedResource } from "@bibliothecadao/types";
 import { useEntityQuery } from "@dojoengine/react";
 import { getComponentValue, Has, HasValue } from "@dojoengine/recs";
+import { configManager } from "@frontboat/eternum";
+import { Building, BuildingType, BuildingTypeToString, getProducedResource } from "@frontboat/types";
 import { useMemo } from "react";
 import { useDojo } from "../";
 

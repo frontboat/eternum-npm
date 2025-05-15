@@ -7,27 +7,27 @@ import TextInput from "@/ui/elements/text-input";
 import { ViewOnMapIcon } from "@/ui/elements/view-on-map-icon";
 import { currencyFormat } from "@/ui/utils/utils";
 import { getBlockTimestamp } from "@/utils/timestamp";
-import {
-  ArmyManager,
-  divideByPrecision,
-  getBalance,
-  getEntityIdFromKeys,
-  getTroopName,
-  getTroopResourceId,
-} from "@bibliothecadao/eternum";
-import { useDojo } from "@bibliothecadao/react";
-import { getTilesFromToriiClient } from "@bibliothecadao/torii-client";
-import {
-  ArmyInfo,
-  Direction,
-  getDirectionBetweenAdjacentHexes,
-  getNeighborHexes,
-  ID,
-  resources,
-  TroopTier,
-  TroopType,
-} from "@bibliothecadao/types";
 import { getComponentValue } from "@dojoengine/recs";
+import {
+    ArmyManager,
+    divideByPrecision,
+    getBalance,
+    getEntityIdFromKeys,
+    getTroopName,
+    getTroopResourceId,
+} from "@frontboat/eternum";
+import { useDojo } from "@frontboat/react";
+import { getTilesFromToriiClient } from "@frontboat/torii-client";
+import {
+    ArmyInfo,
+    Direction,
+    getDirectionBetweenAdjacentHexes,
+    getNeighborHexes,
+    ID,
+    resources,
+    TroopTier,
+    TroopType,
+} from "@frontboat/types";
 import clsx from "clsx";
 import { LockIcon, Pen } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";

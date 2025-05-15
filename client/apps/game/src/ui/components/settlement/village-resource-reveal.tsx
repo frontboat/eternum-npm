@@ -1,10 +1,10 @@
 import Button from "@/ui/elements/button";
 import { LoadingAnimation } from "@/ui/elements/loading-animation";
-import { getEntityIdFromKeys, unpackValue } from "@bibliothecadao/eternum";
-import { useDojo } from "@bibliothecadao/react";
-import { getStructureFromToriiClient } from "@bibliothecadao/torii-client";
-import { HexPosition, ResourcesIds } from "@bibliothecadao/types";
 import { useComponentValue } from "@dojoengine/react";
+import { getEntityIdFromKeys, unpackValue } from "@frontboat/eternum";
+import { useDojo } from "@frontboat/react";
+import { getStructureFromToriiClient } from "@frontboat/torii-client";
+import { HexPosition, ResourcesIds } from "@frontboat/types";
 import { AnimatePresence, motion } from "framer-motion";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { ResourceIcon } from "../../elements/resource-icon";

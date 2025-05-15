@@ -1769,7 +1769,7 @@ file: docs/pages/mechanics/military/raiding.mdx
 meta: {}
 
 import { ETERNUM_CONFIG } from "@/utils/config";
-import { RAIDABLE_RESOURCES } from "@bibliothecadao/types";
+import { RAIDABLE_RESOURCES } from "@frontboat/types";
 import { resource } from "@/components/styles";
 import { RaidableResources } from "@/components/RaidableResources";
 import { importantNote } from "@/components/styles";
@@ -1966,7 +1966,7 @@ meta: {}
 
 import BuildingCard from "../../../components/BuildingCard";
 import { formatNumberWithCommas } from "@/utils/formatting";
-import { CapacityConfig } from "@bibliothecadao/types";
+import { CapacityConfig } from "@frontboat/types";
 import { ETERNUM_CONFIG } from "@/utils/config";
 
 # 🪓 Buildings
@@ -2788,7 +2788,7 @@ meta: {}
 import RarityResourceTable from "@/components/RarityResourceTable";
 import ResourceIcon from "@/components/ResourceIcon";
 import TroopsLimitTable from "@/components/TroopsLimitTable";
-import { ResourcesIds } from "@bibliothecadao/types";
+import { ResourcesIds } from "@frontboat/types";
 
 # 🪵 Materials
 
@@ -2926,7 +2926,7 @@ meta: {}
 import { WeightTable } from "@/components/WeightTable";
 import { formatNumberWithCommas } from "@/utils/formatting";
 import { divideByPrecision } from "@/utils/resources";
-import { CapacityConfig, ResourcesIds } from "@bibliothecadao/types";
+import { CapacityConfig, ResourcesIds } from "@frontboat/types";
 import { ETERNUM_CONFIG } from "@/utils/config";
 
 # 🏺 Storage System

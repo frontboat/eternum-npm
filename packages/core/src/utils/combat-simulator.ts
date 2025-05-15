@@ -1,4 +1,4 @@
-import { BiomeType, TroopTier, TroopType } from "@bibliothecadao/types";
+import { BiomeType, TroopTier, TroopType } from "@frontboat/types";
 import { configManager } from "../managers";
 import { divideWithPrecision } from "./utils";
 

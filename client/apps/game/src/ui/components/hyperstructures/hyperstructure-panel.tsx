@@ -6,23 +6,23 @@ import { ResourceIcon } from "@/ui/elements/resource-icon";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/ui/elements/select";
 import TextInput from "@/ui/elements/text-input";
 import { currencyIntlFormat, formatStringNumber, getEntityIdFromKeys, separateCamelCase } from "@/ui/utils/utils";
-import {
-  configManager,
-  divideByPrecision,
-  getAddressNameFromEntity,
-  getGuildFromPlayerAddress,
-  getHyperstructureTotalContributableAmounts,
-  LeaderboardManager,
-  multiplyByPrecision,
-  ResourceManager,
-} from "@bibliothecadao/eternum";
-import { useCurrentAmounts, useDojo, useHyperstructureProgress, useHyperstructureUpdates } from "@bibliothecadao/react";
-import { Access, ContractAddress, MAX_NAME_LENGTH, ResourcesIds } from "@bibliothecadao/types";
 import { useComponentValue } from "@dojoengine/react";
+import {
+    configManager,
+    divideByPrecision,
+    getAddressNameFromEntity,
+    getGuildFromPlayerAddress,
+    getHyperstructureTotalContributableAmounts,
+    LeaderboardManager,
+    multiplyByPrecision,
+    ResourceManager,
+} from "@frontboat/eternum";
+import { useCurrentAmounts, useDojo, useHyperstructureProgress, useHyperstructureUpdates } from "@frontboat/react";
+import { Access, ContractAddress, MAX_NAME_LENGTH, ResourcesIds } from "@frontboat/types";
 import { useMemo, useState } from "react";
 
 // Add the initialize type to the system calls
-declare module "@bibliothecadao/react" {
+declare module "@frontboat/react" {
   interface SystemCalls {
     initialize: (props: { signer: any; hyperstructure_id: number }) => Promise<void>;
   }

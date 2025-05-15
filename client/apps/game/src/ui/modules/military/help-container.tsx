@@ -1,5 +1,5 @@
 import { useUIStore } from "@/hooks/store/use-ui-store";
-import { ID } from "@bibliothecadao/types";
+import { ID } from "@frontboat/types";
 import { useState } from "react";
 import { TransferResourcesContainer } from "./transfer-resources-container";
 import { TransferDirection, TransferTroopsContainer } from "./transfer-troops-container";

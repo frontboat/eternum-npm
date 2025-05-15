@@ -8,12 +8,12 @@ import { ChatMetadata, Tab } from "@/ui/modules/chat/types";
 import { useChatStore } from "@/ui/modules/chat/use-chat-store";
 import { getMessageKey } from "@/ui/modules/chat/utils";
 import { EventStream } from "@/ui/modules/stream/event-stream";
-import { ContractAddress, Player } from "@bibliothecadao/types";
-import { getGuildFromPlayerAddress, toHexString } from "@bibliothecadao/eternum";
-import { useDojo, usePlayers } from "@bibliothecadao/react";
 import { useEntityQuery } from "@dojoengine/react";
 import { getComponentValue, Has, HasValue } from "@dojoengine/recs";
 import { getEntityIdFromKeys } from "@dojoengine/utils";
+import { getGuildFromPlayerAddress, toHexString } from "@frontboat/eternum";
+import { useDojo, usePlayers } from "@frontboat/react";
+import { ContractAddress, Player } from "@frontboat/types";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { shortString } from "starknet";
 

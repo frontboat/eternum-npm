@@ -1,3 +1,5 @@
+import { getComponentValue, Has, runQuery } from "@dojoengine/recs";
+import { getEntityIdFromKeys } from "@dojoengine/utils";
 import {
   BiomeType,
   BuildingType,
@@ -13,9 +15,7 @@ import {
   TroopTier,
   TroopType,
   WORLD_CONFIG_ID,
-} from "@bibliothecadao/types";
-import { getComponentValue, Has, runQuery } from "@dojoengine/recs";
-import { getEntityIdFromKeys } from "@dojoengine/utils";
+} from "@frontboat/types";
 import { gramToKg } from "../utils";
 
 type LaborConfig = {

@@ -1,4 +1,4 @@
-import { ResourcesIds } from "@bibliothecadao/types";
+import { ResourcesIds } from "@frontboat/types";
 
 // Constants for minimap dimensions and settlement configuration
 export const MINIMAP_WIDTH = 2100;

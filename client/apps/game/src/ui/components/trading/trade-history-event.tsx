@@ -1,8 +1,8 @@
 import { ResourceIcon } from "@/ui/elements/resource-icon";
 import { currencyIntlFormat } from "@/ui/utils/utils";
-import { divideByPrecision, getAddressNameFromEntity } from "@bibliothecadao/eternum";
-import { Resource, ResourcesIds } from "@bibliothecadao/types";
-import { useDojo } from "@bibliothecadao/react";
+import { divideByPrecision, getAddressNameFromEntity } from "@frontboat/eternum";
+import { useDojo } from "@frontboat/react";
+import { Resource, ResourcesIds } from "@frontboat/types";
 import { TradeEvent } from "./market-trading-history";
 
 export enum EventType {

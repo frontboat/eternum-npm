@@ -6,9 +6,8 @@
  * @see {@link CommonEternumGlobalConfig} for base configuration
  */
 
-import { BuildingType, type Config, RealmLevels, ResourcesIds } from "@bibliothecadao/types";
+import { BuildingType, type Config, RealmLevels, ResourcesIds } from "@frontboat/types";
 import { EternumGlobalConfig as CommonEternumGlobalConfig } from "./_shared_";
-import { getAllResourcesWithAmount } from "./utils/resource";
 
 /**
  * Configuration specific to the local development environment.

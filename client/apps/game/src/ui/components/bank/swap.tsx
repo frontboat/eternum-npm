@@ -7,29 +7,29 @@ import Button from "@/ui/elements/button";
 import { ResourceIcon } from "@/ui/elements/resource-icon";
 import { formatNumber } from "@/ui/utils/utils";
 import { getBlockTimestamp } from "@/utils/timestamp";
-import { setup } from "@bibliothecadao/dojo";
-import {
-  computeTravelTime,
-  configManager,
-  divideByPrecision,
-  getBalance,
-  getClosestBank,
-  getEntityIdFromKeys,
-  isMilitaryResource,
-  MarketManager,
-  multiplyByPrecision,
-} from "@bibliothecadao/eternum";
-import { useDojo } from "@bibliothecadao/react";
-import {
-  ContractAddress,
-  ID,
-  RESOURCE_TIERS,
-  Resources,
-  resources,
-  ResourcesIds,
-  StructureType,
-} from "@bibliothecadao/types";
 import { getComponentValue } from "@dojoengine/recs";
+import { setup } from "@frontboat/dojo";
+import {
+    computeTravelTime,
+    configManager,
+    divideByPrecision,
+    getBalance,
+    getClosestBank,
+    getEntityIdFromKeys,
+    isMilitaryResource,
+    MarketManager,
+    multiplyByPrecision,
+} from "@frontboat/eternum";
+import { useDojo } from "@frontboat/react";
+import {
+    ContractAddress,
+    ID,
+    RESOURCE_TIERS,
+    Resources,
+    resources,
+    ResourcesIds,
+    StructureType,
+} from "@frontboat/types";
 import { useCallback, useEffect, useMemo, useState } from "react";
 
 export const ResourceSwap = ({ entityId, listResourceId }: { entityId: ID; listResourceId: number }) => {

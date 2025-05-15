@@ -1,7 +1,7 @@
 import { getBlockTimestamp } from "@/shared/hooks/use-block-timestamp";
-import { ResourceArrivalManager } from "@bibliothecadao/eternum";
-import { ResourceArrivalInfo } from "@bibliothecadao/types";
-import { useArrivalsByStructure, useDojo } from "@bibliothecadao/react";
+import { ResourceArrivalManager } from "@frontboat/eternum";
+import { useArrivalsByStructure, useDojo } from "@frontboat/react";
+import { ResourceArrivalInfo } from "@frontboat/types";
 import { ResourceArrivalSummary } from "../model/types";
 
 export const useResourceArrivals = (structureId: number) => {

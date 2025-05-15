@@ -1,11 +1,11 @@
 import { lordsAddress, marketplaceAddress, seasonPassAddress } from "@/config";
-import { LordsAbi, SeasonPassAbi } from "@bibliothecadao/eternum";
+import { LordsAbi, SeasonPassAbi } from "@frontboat/eternum";
 import {
-  AcceptMarketplaceOrdersProps,
-  CancelMarketplaceOrderProps,
-  CreateMarketplaceOrderProps,
-  EditMarketplaceOrderProps,
-} from "@bibliothecadao/types";
+    AcceptMarketplaceOrdersProps,
+    CancelMarketplaceOrderProps,
+    CreateMarketplaceOrderProps,
+    EditMarketplaceOrderProps,
+} from "@frontboat/types";
 import { useAccount, useContract, useReadContract, useSendTransaction } from "@starknet-react/core";
 import { useState } from "react";
 import { toast } from "sonner";

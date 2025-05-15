@@ -2,7 +2,7 @@ import { useStore } from "@/shared/store";
 import { Card, CardContent, CardHeader, CardTitle } from "@/shared/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/shared/ui/tabs";
 import { RealmInfoHeader } from "@/widgets/realm-info-header";
-import { usePlayerOwnedRealmsInfo, usePlayerOwnedVillagesInfo } from "@bibliothecadao/react";
+import { usePlayerOwnedRealmsInfo, usePlayerOwnedVillagesInfo } from "@frontboat/react";
 import { createContext, useContext, useEffect, useState } from "react";
 import { ClaimTab, MilitaryTab, OverviewTab, ProductionTab } from "./tabs";
 

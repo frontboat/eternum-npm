@@ -1,17 +1,17 @@
 import type { AppStore } from "@/hooks/store/use-ui-store";
-import { type SetupResult } from "@bibliothecadao/dojo";
+import { type SetupResult } from "@frontboat/dojo";
 
-import { getFirstStructureFromToriiClient } from "@bibliothecadao/torii-client";
 import type { Entity, Schema } from "@dojoengine/recs";
 import { setEntities } from "@dojoengine/state";
 import type { Clause, ToriiClient, Entity as ToriiEntity } from "@dojoengine/torii-wasm/types";
+import { getFirstStructureFromToriiClient } from "@frontboat/torii-client";
 import {
-  getAddressNamesFromTorii,
-  getBankStructuresFromTorii,
-  getConfigFromTorii,
-  getGuildsFromTorii,
-  getSeasonPrizeFromTorii,
-  getStructuresDataFromTorii,
+    getAddressNamesFromTorii,
+    getBankStructuresFromTorii,
+    getConfigFromTorii,
+    getGuildsFromTorii,
+    getSeasonPrizeFromTorii,
+    getStructuresDataFromTorii,
 } from "./queries";
 
 export const EVENT_QUERY_LIMIT = 40_000;

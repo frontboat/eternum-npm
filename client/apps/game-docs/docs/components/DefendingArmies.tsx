@@ -1,4 +1,4 @@
-import { DEFENSE_NAMES } from "@bibliothecadao/types";
+import { DEFENSE_NAMES } from "@frontboat/types";
 import { section, table } from "./styles";
 
 // Component 2: Defense Slots by Realm Level

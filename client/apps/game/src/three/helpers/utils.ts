@@ -1,5 +1,5 @@
 import { useAccountStore } from "@/hooks/store/use-account-store";
-import { ContractAddress } from "@bibliothecadao/types";
+import { ContractAddress } from "@frontboat/types";
 import { DRACOLoader, GLTFLoader, MeshoptDecoder } from "three-stdlib";
 
 export function createPausedLabel() {

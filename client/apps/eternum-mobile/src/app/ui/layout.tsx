@@ -1,7 +1,7 @@
 import useStore from "@/shared/store";
 import { Footer } from "@/widgets/footer";
 import { Header } from "@/widgets/header";
-import { useDojo, usePlayerStructures } from "@bibliothecadao/react";
+import { useDojo, usePlayerStructures } from "@frontboat/react";
 import { Outlet } from "@tanstack/react-router";
 import { useEffect } from "react";
 import { syncMarketAndBankData, syncPlayerStructuresData } from "../dojo/sync";

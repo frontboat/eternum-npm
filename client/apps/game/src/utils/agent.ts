@@ -1,5 +1,5 @@
 import { ModelType } from "@/three/types/army.types";
-import { TroopTier, TroopType } from "@bibliothecadao/types";
+import { TroopTier, TroopType } from "@frontboat/types";
 import { generatePersona } from "./generate_persona";
 
 // Define agent models for clarity

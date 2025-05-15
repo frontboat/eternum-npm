@@ -1,8 +1,8 @@
 import { getComponentValue } from "@dojoengine/recs";
 import { getEntityIdFromKeys } from "@dojoengine/utils";
+import { ClientComponents, ResourceArrivalInfo, SystemCalls } from "@frontboat/types";
 import { uuid } from "@latticexyz/utils";
 import { Account, AccountInterface } from "starknet";
-import { SystemCalls, ClientComponents, ResourceArrivalInfo } from "@bibliothecadao/types";
 
 export class ResourceArrivalManager {
   arrival: ResourceArrivalInfo;

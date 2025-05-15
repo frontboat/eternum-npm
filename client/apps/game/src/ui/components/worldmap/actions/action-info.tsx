@@ -5,28 +5,28 @@ import { Headline } from "@/ui/elements/headline";
 import { ResourceCost } from "@/ui/elements/resource-cost";
 import { StaminaResourceCost } from "@/ui/elements/stamina-resource-cost";
 import { getBlockTimestamp } from "@/utils/timestamp";
-import {
-  ActionPath,
-  ActionPaths,
-  ActionType,
-  computeExploreFoodCosts,
-  computeTravelFoodCosts,
-  configManager,
-  getBalance,
-  getGuardsByStructure,
-  getRemainingCapacityInKg,
-  StaminaManager,
-} from "@bibliothecadao/eternum";
-import { useDojo } from "@bibliothecadao/react";
-import {
-  getExplorerFromToriiClient,
-  getQuestFromToriiClient,
-  getStructureFromToriiClient,
-} from "@bibliothecadao/torii-client";
-import { BiomeType, ClientComponents, ID, ResourcesIds, TroopType } from "@bibliothecadao/types";
 import { useComponentValue } from "@dojoengine/react";
 import { ComponentValue, getComponentValue } from "@dojoengine/recs";
 import { getEntityIdFromKeys } from "@dojoengine/utils";
+import {
+    ActionPath,
+    ActionPaths,
+    ActionType,
+    computeExploreFoodCosts,
+    computeTravelFoodCosts,
+    configManager,
+    getBalance,
+    getGuardsByStructure,
+    getRemainingCapacityInKg,
+    StaminaManager,
+} from "@frontboat/eternum";
+import { useDojo } from "@frontboat/react";
+import {
+    getExplorerFromToriiClient,
+    getQuestFromToriiClient,
+    getStructureFromToriiClient,
+} from "@frontboat/torii-client";
+import { BiomeType, ClientComponents, ID, ResourcesIds, TroopType } from "@frontboat/types";
 import clsx from "clsx";
 import { memo, useCallback, useEffect, useMemo, useState } from "react";
 

@@ -1,6 +1,6 @@
 import InstancedModel from "@/three/managers/instanced-model";
 import { Position } from "@/types/position";
-import { FELT_CENTER, ID, QuestType } from "@bibliothecadao/types";
+import { FELT_CENTER, ID, QuestType } from "@frontboat/types";
 import * as THREE from "three";
 import { CSS2DObject } from "three/examples/jsm/renderers/CSS2DRenderer.js";
 import { gltfLoader } from "../helpers/utils";

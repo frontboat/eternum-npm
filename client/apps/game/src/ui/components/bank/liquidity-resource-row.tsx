@@ -4,18 +4,18 @@ import Button from "@/ui/elements/button";
 import { ResourceCost } from "@/ui/elements/resource-cost";
 import { ResourceIcon } from "@/ui/elements/resource-icon";
 import { formatNumber, getEntityIdFromKeys } from "@/ui/utils/utils";
-import {
-  MarketManager,
-  computeTravelTime,
-  configManager,
-  divideByPrecision,
-  getClosestBank,
-  isMilitaryResource,
-} from "@bibliothecadao/eternum";
-import { ContractAddress, ID, ResourcesIds, StructureType, resources } from "@bibliothecadao/types";
-import { useDojo } from "@bibliothecadao/react";
 import { useComponentValue } from "@dojoengine/react";
 import { getComponentValue } from "@dojoengine/recs";
+import {
+    MarketManager,
+    computeTravelTime,
+    configManager,
+    divideByPrecision,
+    getClosestBank,
+    isMilitaryResource,
+} from "@frontboat/eternum";
+import { useDojo } from "@frontboat/react";
+import { ContractAddress, ID, ResourcesIds, StructureType, resources } from "@frontboat/types";
 import React, { useCallback, useMemo, useState } from "react";
 
 type LiquidityResourceRowProps = {

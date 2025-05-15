@@ -1,6 +1,6 @@
-import { useDojo } from "@bibliothecadao/react";
 import { useEntityQuery } from "@dojoengine/react";
 import { getComponentValue, Has, HasValue } from "@dojoengine/recs";
+import { useDojo } from "@frontboat/react";
 import { useMemo } from "react";
 
 export const useGetQuests = (gameAddress: string, questTileId: number) => {

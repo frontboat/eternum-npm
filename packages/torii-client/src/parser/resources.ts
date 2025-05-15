@@ -1,5 +1,5 @@
-import { ClientComponents } from "@bibliothecadao/types";
 import { ComponentValue } from "@dojoengine/recs";
+import { ClientComponents } from "@frontboat/types";
 
 export const getResourcesFromToriiEntity = (entity: any): ComponentValue<ClientComponents["Resource"]["schema"]> => {
   return {

@@ -5,9 +5,9 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import TextInput from "@/ui/elements/text-input";
 import { formatNumber } from "@/ui/utils/utils";
 import { getBlockTimestamp } from "@/utils/timestamp";
-import { divideByPrecision, getBalance } from "@bibliothecadao/eternum";
-import { ID, Resources, ResourcesIds, findResourceById, findResourceIdByTrait } from "@bibliothecadao/types";
-import { useDojo } from "@bibliothecadao/react";
+import { divideByPrecision, getBalance } from "@frontboat/eternum";
+import { useDojo } from "@frontboat/react";
+import { ID, Resources, ResourcesIds, findResourceById, findResourceIdByTrait } from "@frontboat/types";
 import { memo, useEffect, useRef, useState } from "react";
 
 export const ResourceBar = memo(

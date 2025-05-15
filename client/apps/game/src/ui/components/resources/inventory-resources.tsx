@@ -1,7 +1,7 @@
 import { ResourceCost } from "@/ui/elements/resource-cost";
-import { divideByPrecision, ResourceManager } from "@bibliothecadao/eternum";
-import { ClientComponents } from "@bibliothecadao/types";
 import { ComponentValue } from "@dojoengine/recs";
+import { divideByPrecision, ResourceManager } from "@frontboat/eternum";
+import { ClientComponents } from "@frontboat/types";
 import { useMemo, useState } from "react";
 
 export const InventoryResources = ({

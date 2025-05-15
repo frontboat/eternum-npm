@@ -1,4 +1,4 @@
-import { ID } from "@bibliothecadao/types";
+import { ID } from "@frontboat/types";
 // import { GET_ENTITY_DISTANCE } from "./query/position";
 
 export function useTravel(fromId: ID, toId: ID, secPerKm: number, pickup?: boolean) {

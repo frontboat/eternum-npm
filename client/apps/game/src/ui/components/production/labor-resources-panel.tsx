@@ -1,6 +1,6 @@
 import { NumberInput } from "@/ui/elements/number-input";
 import { ResourceIcon } from "@/ui/elements/resource-icon";
-import { ResourcesIds } from "@bibliothecadao/types";
+import { ResourcesIds } from "@frontboat/types";
 
 interface LaborResourcesPanelProps {
   productionAmount: number;

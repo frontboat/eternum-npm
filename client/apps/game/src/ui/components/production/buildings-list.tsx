@@ -1,10 +1,10 @@
 import { BUILDING_IMAGES_PATH } from "@/ui/config";
 import { ResourceIcon } from "@/ui/elements/resource-icon";
 import { getBlockTimestamp } from "@/utils/timestamp";
-import { getEntityIdFromKeys, getRealmInfo, ResourceManager } from "@bibliothecadao/eternum";
-import { useBuildings, useDojo, useResourceManager } from "@bibliothecadao/react";
-import { BuildingType, getProducedResource, RealmInfo, ResourcesIds } from "@bibliothecadao/types";
 import { useComponentValue } from "@dojoengine/react";
+import { getEntityIdFromKeys, getRealmInfo, ResourceManager } from "@frontboat/eternum";
+import { useBuildings, useDojo, useResourceManager } from "@frontboat/react";
+import { BuildingType, getProducedResource, RealmInfo, ResourcesIds } from "@frontboat/types";
 import { AnimatePresence, motion } from "framer-motion";
 import { useMemo } from "react";
 import { ResourceChip } from "../resources/resource-chip";

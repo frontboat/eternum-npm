@@ -1,5 +1,5 @@
-import { ActionPath } from "@bibliothecadao/eternum";
-import { BuildingType, HexPosition, ID, Position } from "@bibliothecadao/types";
+import { ActionPath } from "@frontboat/eternum";
+import { BuildingType, HexPosition, ID, Position } from "@frontboat/types";
 
 export interface ThreeStore {
   navigationTarget: HexPosition | null;

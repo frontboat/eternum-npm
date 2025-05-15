@@ -1,4 +1,4 @@
-import { TroopTier, TroopType } from "@bibliothecadao/types";
+import { TroopTier, TroopType } from "@frontboat/types";
 import { ModelType } from "../types/army.types";
 
 export const MAX_INSTANCES = 1000;

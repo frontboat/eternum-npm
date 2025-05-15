@@ -3,13 +3,13 @@ import { useUIStore } from "@/hooks/store/use-ui-store";
 import { ResourceIcon } from "@/ui/elements/resource-icon";
 import { currencyFormat, currencyIntlFormat } from "@/ui/utils/utils";
 import {
-  configManager,
-  divideByPrecision,
-  formatTime,
-  getTotalResourceWeightKg,
-  ResourceManager,
-} from "@bibliothecadao/eternum";
-import { findResourceById, ID, TickIds } from "@bibliothecadao/types";
+    configManager,
+    divideByPrecision,
+    formatTime,
+    getTotalResourceWeightKg,
+    ResourceManager,
+} from "@frontboat/eternum";
+import { findResourceById, ID, TickIds } from "@frontboat/types";
 import { useCallback, useEffect, useMemo, useState } from "react";
 
 export const ResourceChip = ({

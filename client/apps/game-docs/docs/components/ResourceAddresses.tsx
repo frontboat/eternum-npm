@@ -1,5 +1,5 @@
 import { getResourceAddresses } from "@/utils/addresses";
-import { ResourcesIds } from "@bibliothecadao/types";
+import { ResourcesIds } from "@frontboat/types";
 import ResourceIcon from "./ResourceIcon";
 import { colors, section, table } from "./styles";
 

@@ -3,9 +3,9 @@ import { getBlockTimestamp } from "@/shared/hooks/use-block-timestamp";
 import { Button } from "@/shared/ui/button";
 import { Drawer, DrawerContent, DrawerDescription, DrawerHeader, DrawerTitle } from "@/shared/ui/drawer";
 import { ResourceIcon } from "@/shared/ui/resource-icon";
-import { divideByPrecision, getBalance } from "@bibliothecadao/eternum";
-import { LEVEL_DESCRIPTIONS, resources } from "@bibliothecadao/types";
-import { useDojo } from "@bibliothecadao/react";
+import { divideByPrecision, getBalance } from "@frontboat/eternum";
+import { useDojo } from "@frontboat/react";
+import { LEVEL_DESCRIPTIONS, resources } from "@frontboat/types";
 import { Check, Loader2, X } from "lucide-react";
 import { useEffect, useState } from "react";
 

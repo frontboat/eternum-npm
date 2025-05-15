@@ -1,8 +1,8 @@
 import { fetchOtherStructures } from "@/services/api";
 import { TransferBetweenEntities } from "@/ui/components/trading/transfer-between-entities";
-import { getGuildMembersFromPlayerAddress } from "@bibliothecadao/eternum";
-import { useDojo, usePlayerStructures } from "@bibliothecadao/react";
-import { ContractAddress, ID, Structure, StructureType } from "@bibliothecadao/types";
+import { getGuildMembersFromPlayerAddress } from "@frontboat/eternum";
+import { useDojo, usePlayerStructures } from "@frontboat/react";
+import { ContractAddress, ID, Structure, StructureType } from "@frontboat/types";
 import { useEffect, useMemo, useState } from "react";
 
 export type EntityIdFormat = {

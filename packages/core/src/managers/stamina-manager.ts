@@ -1,6 +1,6 @@
-import { ClientComponents, ID, Troops, TroopTier, TroopType } from "@bibliothecadao/types";
 import { getComponentValue } from "@dojoengine/recs";
 import { getEntityIdFromKeys } from "@dojoengine/utils";
+import { ClientComponents, ID, Troops, TroopTier, TroopType } from "@frontboat/types";
 import { configManager } from "./config-manager";
 
 export class StaminaManager {

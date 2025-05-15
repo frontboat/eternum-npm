@@ -1,13 +1,13 @@
-import {
-  CapacityConfig,
-  ClientComponents,
-  ContractAddress,
-  EntityType,
-  ID,
-  StructureType,
-} from "@bibliothecadao/types";
 import { ComponentValue, getComponentValue } from "@dojoengine/recs";
 import { getEntityIdFromKeys } from "@dojoengine/utils";
+import {
+    CapacityConfig,
+    ClientComponents,
+    ContractAddress,
+    EntityType,
+    ID,
+    StructureType,
+} from "@frontboat/types";
 import { shortString } from "starknet";
 import { configManager } from "../managers/config-manager";
 import { getRealmNameById } from "./realm";

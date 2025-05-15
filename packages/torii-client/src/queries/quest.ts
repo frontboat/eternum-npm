@@ -1,7 +1,7 @@
 import { PatternMatching } from "@dojoengine/torii-wasm";
 
-import { ID } from "@bibliothecadao/types";
 import { ToriiClient } from "@dojoengine/torii-wasm";
+import { ID } from "@frontboat/types";
 
 import { Query } from "@dojoengine/torii-wasm";
 import { getQuestFromToriiEntity } from "../parser/quest";

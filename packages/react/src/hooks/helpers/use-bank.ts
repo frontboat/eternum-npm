@@ -1,6 +1,6 @@
-import { ID, MERCENARIES, WORLD_CONFIG_ID } from "@bibliothecadao/types";
 import { getComponentValue, getComponentValueStrict } from "@dojoengine/recs";
 import { getEntityIdFromKeys } from "@dojoengine/utils";
+import { ID, MERCENARIES, WORLD_CONFIG_ID } from "@frontboat/types";
 import { shortString } from "starknet";
 import { useDojo } from "../";
 

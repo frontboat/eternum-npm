@@ -1,4 +1,4 @@
-import { configManager } from "@bibliothecadao/eternum";
+import { configManager } from "@frontboat/eternum";
 import { useMemo, useState } from "react";
 
 export const useSeasonStart = () => {

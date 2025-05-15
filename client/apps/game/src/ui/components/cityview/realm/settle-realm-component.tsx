@@ -6,9 +6,9 @@ import { SettlementLocation } from "@/ui/components/settlement/settlement-types"
 import Button from "@/ui/elements/button";
 import { ResourceIcon } from "@/ui/elements/resource-icon";
 import { getSeasonPassAddress } from "@/utils/addresses";
-import { getOffchainRealm, unpackValue } from "@bibliothecadao/eternum";
-import { useDojo } from "@bibliothecadao/react";
-import { RealmInterface, ResourcesIds } from "@bibliothecadao/types";
+import { getOffchainRealm, unpackValue } from "@frontboat/eternum";
+import { useDojo } from "@frontboat/react";
+import { RealmInterface, ResourcesIds } from "@frontboat/types";
 import { gql } from "graphql-request";
 import { useMemo, useRef, useState } from "react";
 import { toast } from "sonner";

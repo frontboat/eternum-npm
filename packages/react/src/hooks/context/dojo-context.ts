@@ -1,4 +1,4 @@
-import { SetupNetworkResult, SetupResult } from "@bibliothecadao/dojo";
+import { SetupNetworkResult, SetupResult } from "@frontboat/dojo";
 import { createContext, useContext } from "react";
 import { Account, AccountInterface } from "starknet";
 

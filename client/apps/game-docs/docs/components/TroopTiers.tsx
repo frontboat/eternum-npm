@@ -1,4 +1,4 @@
-import { TroopTier, TroopType } from "@bibliothecadao/types";
+import { TroopTier, TroopType } from "@frontboat/types";
 import { colors, section, table } from "./styles";
 
 export const getTroopName = (troopType: TroopType, troopTier: TroopTier): string => {

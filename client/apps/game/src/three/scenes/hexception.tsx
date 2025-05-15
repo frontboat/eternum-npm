@@ -12,29 +12,29 @@ import { LeftView } from "@/types";
 import { Position } from "@/types/position";
 import { IS_FLAT_MODE } from "@/ui/config";
 import { ResourceIcon } from "@/ui/elements/resource-icon";
-import { SetupResult } from "@bibliothecadao/dojo";
-import {
-  ActionType,
-  Biome,
-  ResourceIdToMiningType,
-  ResourceManager,
-  TileManager,
-  getEntityIdFromKeys,
-} from "@bibliothecadao/eternum";
-import {
-  BUILDINGS_CENTER,
-  BiomeType,
-  BuildingType,
-  HexPosition,
-  RealmLevels,
-  ResourceMiningTypes,
-  ResourcesIds,
-  StructureType,
-  findResourceById,
-  getNeighborHexes,
-  getProducedResource,
-} from "@bibliothecadao/types";
 import { getComponentValue } from "@dojoengine/recs";
+import { SetupResult } from "@frontboat/dojo";
+import {
+    ActionType,
+    Biome,
+    ResourceIdToMiningType,
+    ResourceManager,
+    TileManager,
+    getEntityIdFromKeys,
+} from "@frontboat/eternum";
+import {
+    BUILDINGS_CENTER,
+    BiomeType,
+    BuildingType,
+    HexPosition,
+    RealmLevels,
+    ResourceMiningTypes,
+    ResourcesIds,
+    StructureType,
+    findResourceById,
+    getNeighborHexes,
+    getProducedResource,
+} from "@frontboat/types";
 import clsx from "clsx";
 import gsap from "gsap";
 import * as THREE from "three";
@@ -43,15 +43,15 @@ import { MapControls } from "three/examples/jsm/controls/MapControls.js";
 import { BuildingSystemUpdate, RealmSystemUpdate, SceneName, StructureProgress } from "../types";
 import { getHexForWorldPosition, getWorldPositionForHex } from "../utils";
 import {
-  BUILDINGS_CATEGORIES_TYPES,
-  BUILDINGS_GROUPS,
-  HEX_SIZE,
-  MinesMaterialsParams,
-  WONDER_REALM,
-  buildingModelPaths,
-  castleLevelToRealmCastle,
-  hyperstructureStageToModel,
-  structureTypeToBuildingType,
+    BUILDINGS_CATEGORIES_TYPES,
+    BUILDINGS_GROUPS,
+    HEX_SIZE,
+    MinesMaterialsParams,
+    WONDER_REALM,
+    buildingModelPaths,
+    castleLevelToRealmCastle,
+    hyperstructureStageToModel,
+    structureTypeToBuildingType,
 } from "./constants";
 
 const loader = gltfLoader;

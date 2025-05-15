@@ -4,8 +4,8 @@ import { Card, CardContent } from "@/shared/ui/card";
 import { NumericInput } from "@/shared/ui/numeric-input";
 import { ResourceIcon } from "@/shared/ui/resource-icon";
 import { ResourceSelectDrawer } from "@/shared/ui/resource-select-drawer";
-import { divideByPrecision } from "@bibliothecadao/eternum";
-import { ID, resources } from "@bibliothecadao/types";
+import { divideByPrecision } from "@frontboat/eternum";
+import { ID, resources } from "@frontboat/types";
 
 interface SwapInputProps {
   direction: "buy" | "sell";

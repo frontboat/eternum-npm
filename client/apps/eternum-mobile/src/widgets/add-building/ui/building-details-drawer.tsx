@@ -6,21 +6,21 @@ import { Drawer, DrawerContent, DrawerFooter, DrawerHeader, DrawerTitle } from "
 import { ResourceIcon } from "@/shared/ui/resource-icon";
 import { HexagonLocationSelector, HexLocation } from "@/widgets/hexagon-location-selector";
 import {
-  configManager,
-  divideByPrecision,
-  getBalance,
-  getBuildingCosts,
-  getConsumedBy,
-  TileManager,
-} from "@bibliothecadao/eternum";
-import { useDojo } from "@bibliothecadao/react";
+    configManager,
+    divideByPrecision,
+    getBalance,
+    getBuildingCosts,
+    getConsumedBy,
+    TileManager,
+} from "@frontboat/eternum";
+import { useDojo } from "@frontboat/react";
 import {
-  BUILDINGS_CENTER,
-  BuildingType,
-  BuildingTypeToString,
-  CapacityConfig,
-  findResourceById,
-} from "@bibliothecadao/types";
+    BUILDINGS_CENTER,
+    BuildingType,
+    BuildingTypeToString,
+    CapacityConfig,
+    findResourceById,
+} from "@frontboat/types";
 import { Clock, Loader2, Users, Warehouse } from "lucide-react";
 import React, { useCallback, useMemo, useState } from "react";
 

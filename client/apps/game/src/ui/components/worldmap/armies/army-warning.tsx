@@ -1,17 +1,17 @@
 import { useBlockTimestamp } from "@/hooks/helpers/use-block-timestamp";
 import { formatNumber } from "@/ui/utils/utils";
 import { getBlockTimestamp } from "@/utils/timestamp";
-import {
-  Biome,
-  computeExploreFoodCosts,
-  configManager,
-  divideByPrecision,
-  getRemainingCapacityInKg,
-  ResourceManager,
-  StaminaManager,
-} from "@bibliothecadao/eternum";
-import { ClientComponents, getNeighborHexes, ResourcesIds, TroopType } from "@bibliothecadao/types";
 import { ComponentValue } from "@dojoengine/recs";
+import {
+    Biome,
+    computeExploreFoodCosts,
+    configManager,
+    divideByPrecision,
+    getRemainingCapacityInKg,
+    ResourceManager,
+    StaminaManager,
+} from "@frontboat/eternum";
+import { ClientComponents, getNeighborHexes, ResourcesIds, TroopType } from "@frontboat/types";
 import { useMemo } from "react";
 
 interface ArmyWarningProps {

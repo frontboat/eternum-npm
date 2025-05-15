@@ -1,4 +1,4 @@
-import { ContractAddress, HexPosition, ID, StructureType } from "@bibliothecadao/types";
+import { ContractAddress, HexPosition, ID, StructureType } from "@frontboat/types";
 import { getChecksumAddress } from "starknet";
 import { env } from "../../env";
 

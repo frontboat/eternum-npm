@@ -1,9 +1,9 @@
 import { EntityArmyList } from "@/ui/components/military/army-list";
 import { EntitiesArmyTable } from "@/ui/components/military/entities-army-table";
-import { getEntityIdFromKeys } from "@bibliothecadao/eternum";
-import { ID } from "@bibliothecadao/types";
-import { useDojo, useQuery } from "@bibliothecadao/react";
 import { useComponentValue } from "@dojoengine/react";
+import { getEntityIdFromKeys } from "@frontboat/eternum";
+import { useDojo, useQuery } from "@frontboat/react";
+import { ID } from "@frontboat/types";
 
 export const Military = ({ entityId, className }: { entityId: ID | undefined; className?: string }) => {
   const {

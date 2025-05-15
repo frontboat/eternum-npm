@@ -1,5 +1,5 @@
-import { BUILDINGS_CENTER, BuildingType, ResourcesIds, StructureType } from "@bibliothecadao/types";
 import { Entity } from "@dojoengine/recs";
+import { BUILDINGS_CENTER, BuildingType, ResourcesIds, StructureType } from "@frontboat/types";
 
 export interface BuildModeStore {
   previewBuilding: { type: BuildingType | StructureType; resource?: ResourcesIds } | null;

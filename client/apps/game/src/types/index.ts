@@ -1,4 +1,4 @@
-import { ID } from "@bibliothecadao/types";
+import { ID } from "@frontboat/types";
 
 export enum RightView {
   None,

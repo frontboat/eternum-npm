@@ -1,5 +1,5 @@
 import Button from "@/ui/elements/button";
-import { ID } from "@bibliothecadao/types";
+import { ID } from "@frontboat/types";
 import clsx from "clsx";
 import { memo } from "react";
 

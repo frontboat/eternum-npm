@@ -1,6 +1,6 @@
 import { BuildingEntityDetails } from "@/ui/modules/entity-details/building-entity-details";
 import { HexEntityDetails } from "@/ui/modules/entity-details/hex-entity-details";
-import { useQuery } from "@bibliothecadao/react";
+import { useQuery } from "@frontboat/react";
 
 export const EntityDetails = ({ className }: { className?: string }) => {
   const { isMapView } = useQuery();

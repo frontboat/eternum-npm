@@ -1,16 +1,16 @@
 // onload -> fetch single key entities
 
-import { HexPosition, ID, StructureType, WORLD_CONFIG_ID } from "@bibliothecadao/types";
 import { Component, Metadata, Schema } from "@dojoengine/recs";
 import { AndComposeClause, MemberClause } from "@dojoengine/sdk";
 import { getEntities, getEvents } from "@dojoengine/state";
 import { PatternMatching, ToriiClient } from "@dojoengine/torii-client";
 import { Clause, LogicalOperator } from "@dojoengine/torii-wasm";
+import { HexPosition, ID, StructureType, WORLD_CONFIG_ID } from "@frontboat/types";
 import {
-  debouncedGetBuildingsFromTorii,
-  debouncedGetEntitiesFromTorii,
-  debouncedGetOwnedArmiesFromTorii,
-  debouncedGetTilesForPositionsFromTorii,
+    debouncedGetBuildingsFromTorii,
+    debouncedGetEntitiesFromTorii,
+    debouncedGetOwnedArmiesFromTorii,
+    debouncedGetTilesForPositionsFromTorii,
 } from "./debounced-queries";
 import { EVENT_QUERY_LIMIT } from "./sync";
 

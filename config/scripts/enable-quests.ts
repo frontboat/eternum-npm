@@ -1,5 +1,5 @@
-import { EternumProvider } from "@bibliothecadao/provider";
 import { getGameManifest } from "@contracts";
+import { EternumProvider } from "@frontboat/provider";
 import chalk from "chalk";
 import { Account } from "starknet";
 import { confirmNonLocalDeployment } from "utils/confirmation";

@@ -1,4 +1,4 @@
-import { ContractAddress } from "@bibliothecadao/types";
+import { ContractAddress } from "@frontboat/types";
 
 export type CoOwnersWithTimestamp = {
   coOwners: {

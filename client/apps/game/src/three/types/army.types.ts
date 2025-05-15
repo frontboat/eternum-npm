@@ -1,4 +1,4 @@
-import { TroopTier, TroopType } from "@bibliothecadao/types";
+import { TroopTier, TroopType } from "@frontboat/types";
 import * as THREE from "three";
 import { AnimationMixer } from "three";
 

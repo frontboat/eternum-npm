@@ -1,11 +1,11 @@
 import { useAddressStore } from "@/hooks/store/use-address-store";
-import { SetupResult } from "@bibliothecadao/dojo";
-import { useDojo } from "@bibliothecadao/react";
-import { ContractAddress } from "@bibliothecadao/types";
 import ControllerConnector from "@cartridge/connector/controller";
 import { getComponentValue } from "@dojoengine/recs";
 import { cairoShortStringToFelt } from "@dojoengine/torii-client";
 import { getEntityIdFromKeys } from "@dojoengine/utils";
+import { SetupResult } from "@frontboat/dojo";
+import { useDojo } from "@frontboat/react";
+import { ContractAddress } from "@frontboat/types";
 import { useEffect, useRef, useState } from "react";
 import { AccountInterface, shortString } from "starknet";
 

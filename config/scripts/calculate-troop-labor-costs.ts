@@ -1,8 +1,8 @@
-import { ResourcesIds } from "@bibliothecadao/types";
+import { ResourcesIds } from "@frontboat/types";
 
 import {
-  RESOURCE_PRODUCTION_COMPLEX_SYSTEM,
-  RESOURCE_PRODUCTION_INPUT_RESOURCES,
+    RESOURCE_PRODUCTION_COMPLEX_SYSTEM,
+    RESOURCE_PRODUCTION_INPUT_RESOURCES,
 } from "../environments/utils/resource";
 
 // T1 Troop types we're calculating for

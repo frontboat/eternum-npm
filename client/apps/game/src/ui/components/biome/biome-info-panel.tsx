@@ -1,6 +1,6 @@
 import { formatBiomeBonus } from "@/ui/modules/military/combat-utils";
-import { configManager } from "@bibliothecadao/eternum";
-import { BiomeType, TroopType } from "@bibliothecadao/types";
+import { configManager } from "@frontboat/eternum";
+import { BiomeType, TroopType } from "@frontboat/types";
 
 enum BiomeFilenames {
   Bare = "bare.png",

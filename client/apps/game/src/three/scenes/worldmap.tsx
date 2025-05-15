@@ -20,24 +20,24 @@ import { CombatModal } from "@/ui/modules/military/combat-modal";
 import { HelpModal } from "@/ui/modules/military/help-modal";
 import { QuestModal } from "@/ui/modules/quests/quest-modal";
 import { getBlockTimestamp } from "@/utils/timestamp";
-import { SetupResult } from "@bibliothecadao/dojo";
+import { SetupResult } from "@frontboat/dojo";
 import {
-  ActionPath,
-  ActionPaths,
-  ActionType,
-  ArmyActionManager,
-  StructureActionManager,
-} from "@bibliothecadao/eternum";
+    ActionPath,
+    ActionPaths,
+    ActionType,
+    ArmyActionManager,
+    StructureActionManager,
+} from "@frontboat/eternum";
 import {
-  BiomeType,
-  ContractAddress,
-  DUMMY_HYPERSTRUCTURE_ENTITY_ID,
-  findResourceById,
-  getNeighborOffsets,
-  HexEntityInfo,
-  HexPosition,
-  ID,
-} from "@bibliothecadao/types";
+    BiomeType,
+    ContractAddress,
+    DUMMY_HYPERSTRUCTURE_ENTITY_ID,
+    findResourceById,
+    getNeighborOffsets,
+    HexEntityInfo,
+    HexPosition,
+    ID,
+} from "@frontboat/types";
 import { Account, AccountInterface } from "starknet";
 import * as THREE from "three";
 import { Raycaster } from "three";
@@ -46,12 +46,12 @@ import { FXManager } from "../managers/fx-manager";
 import { QuestManager } from "../managers/quest-manager";
 import { ResourceFXManager } from "../managers/resource-fx-manager";
 import {
-  ArmySystemUpdate,
-  ExplorerRewardSystemUpdate,
-  QuestSystemUpdate,
-  SceneName,
-  StructureSystemUpdate,
-  TileSystemUpdate,
+    ArmySystemUpdate,
+    ExplorerRewardSystemUpdate,
+    QuestSystemUpdate,
+    SceneName,
+    StructureSystemUpdate,
+    TileSystemUpdate,
 } from "../types";
 import { getWorldPositionForHex } from "../utils";
 

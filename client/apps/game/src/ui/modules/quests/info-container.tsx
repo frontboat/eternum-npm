@@ -1,9 +1,9 @@
 import { useMinigameStore } from "@/hooks/store/use-minigame-store";
 import { BuildingThumbs } from "@/ui/config";
-import { formatTime, getEntityIdFromKeys } from "@bibliothecadao/eternum";
-import { useDojo } from "@bibliothecadao/react";
-import { ClientComponents } from "@bibliothecadao/types";
 import { ComponentValue, getComponentValue } from "@dojoengine/recs";
+import { formatTime, getEntityIdFromKeys } from "@frontboat/eternum";
+import { useDojo } from "@frontboat/react";
+import { ClientComponents } from "@frontboat/types";
 import { useMemo } from "react";
 
 const formatAmount = (amount: number) => {

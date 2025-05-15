@@ -10,10 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@bibliothecadao/dojo": "workspace:*",
-    "@bibliothecadao/eternum": "workspace:*",
-    "@bibliothecadao/provider": "workspace:*",
-    "@bibliothecadao/types": "workspace:*",
+    "@frontboat/dojo": "workspace:*",
+    "@frontboat/eternum": "workspace:*",
+    "@frontboat/provider": "workspace:*",
+    "@frontboat/types": "workspace:*",
     "@dojoengine/core": "catalog:",
     "@radix-ui/react-collapsible": "^1.1.1",
     "@radix-ui/react-dialog": "^1.1.13",

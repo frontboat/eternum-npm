@@ -7,9 +7,9 @@ import { mintUrl, OnboardingContainer, StepContainer } from "@/ui/layouts/onboar
 import { CountdownTimer, LoadingScreen } from "@/ui/modules/loading-screen";
 import { SpectateButton } from "@/ui/modules/onboarding/steps";
 import { displayAddress } from "@/ui/utils/utils";
-import { SetupResult } from "@bibliothecadao/dojo";
-import { DojoContext } from "@bibliothecadao/react";
 import ControllerConnector from "@cartridge/connector/controller";
+import { SetupResult } from "@frontboat/dojo";
+import { DojoContext } from "@frontboat/react";
 import { useAccount, useConnect } from "@starknet-react/core";
 import { ReactNode, useContext, useEffect, useMemo, useState } from "react";
 import { Account, AccountInterface, RpcProvider } from "starknet";

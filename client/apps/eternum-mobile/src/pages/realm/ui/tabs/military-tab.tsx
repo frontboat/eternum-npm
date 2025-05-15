@@ -2,7 +2,7 @@ import { useArmiesInRadius } from "@/features/armies";
 import { cn } from "@/shared/lib/utils";
 import { useStore } from "@/shared/store";
 import { ResourceAmount } from "@/shared/ui/resource-amount";
-import { ResourcesIds } from "@bibliothecadao/types";
+import { ResourcesIds } from "@frontboat/types";
 import { AlertTriangle, Eye, Swords } from "lucide-react";
 
 export interface MilitaryTabProps {

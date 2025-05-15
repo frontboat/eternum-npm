@@ -1,11 +1,11 @@
-import {
-  ClientComponents,
-  createClientComponents,
-  createSystemCalls,
-  SystemCallAuthHandler,
-  SystemCalls,
-} from "@bibliothecadao/types";
 import { DojoConfig } from "@dojoengine/core";
+import {
+    ClientComponents,
+    createClientComponents,
+    createSystemCalls,
+    SystemCallAuthHandler,
+    SystemCalls,
+} from "@frontboat/types";
 import { setupNetwork, SetupNetworkResult } from "./setup-network";
 
 export type SetupResult = Awaited<ReturnType<typeof setup>>;

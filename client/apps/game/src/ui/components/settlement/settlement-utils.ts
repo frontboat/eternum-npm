@@ -1,14 +1,14 @@
 import { fetchRealmSettlements } from "@/services/api";
 import { Position } from "@/types/position";
-import { Coord } from "@bibliothecadao/eternum";
-import {
-  ClientComponents,
-  ContractAddress,
-  Direction,
-  FELT_CENTER as SETTLEMENT_CENTER,
-  StructureType,
-} from "@bibliothecadao/types";
 import { getComponentValue, HasValue, runQuery } from "@dojoengine/recs";
+import { Coord } from "@frontboat/eternum";
+import {
+    ClientComponents,
+    ContractAddress,
+    Direction,
+    FELT_CENTER as SETTLEMENT_CENTER,
+    StructureType,
+} from "@frontboat/types";
 import { SETTLEMENT_BASE_DISTANCE, SETTLEMENT_SUBSEQUENT_DISTANCE } from "./settlement-constants";
 import { SettlementLocation } from "./settlement-types";
 

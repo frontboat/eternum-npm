@@ -6,14 +6,14 @@ import { NumericInput } from "@/shared/ui/numeric-input";
 import { ResourceIcon } from "@/shared/ui/resource-icon";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/shared/ui/tabs";
 import {
-  configManager,
-  divideByPrecision,
-  formatTime,
-  getBuildingQuantity,
-  TileManager,
-} from "@bibliothecadao/eternum";
-import { useDojo, useResourceManager } from "@bibliothecadao/react";
-import { getBuildingFromResource, RealmInfo, resources, ResourcesIds, StructureType } from "@bibliothecadao/types";
+    configManager,
+    divideByPrecision,
+    formatTime,
+    getBuildingQuantity,
+    TileManager,
+} from "@frontboat/eternum";
+import { useDojo, useResourceManager } from "@frontboat/react";
+import { getBuildingFromResource, RealmInfo, resources, ResourcesIds, StructureType } from "@frontboat/types";
 import { Loader2Icon } from "lucide-react";
 import { useMemo, useState } from "react";
 import { LaborBuilding } from "../model/types";

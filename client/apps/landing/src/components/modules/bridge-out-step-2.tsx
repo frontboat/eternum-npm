@@ -2,7 +2,7 @@
 // import { useDonkeyArrivals } from "@/hooks/helpers/use-donkey-arrivals";
 // import { useEntities } from "@/hooks/helpers/use-entities";
 // import { displayAddress } from "@/lib/utils";
-// import { RESOURCE_PRECISION, ResourcesIds } from "@bibliothecadao/types";
+// import { RESOURCE_PRECISION, ResourcesIds } from "@frontboat/types";
 // import { useAccount } from "@starknet-react/core";
 // import { ChevronDown, ChevronUp, Loader } from "lucide-react";
 // import { useEffect, useState } from "react";

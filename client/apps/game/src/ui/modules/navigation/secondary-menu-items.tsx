@@ -6,9 +6,9 @@ import { rewards, settings } from "@/ui/components/navigation/config";
 import { BuildingThumbs } from "@/ui/config";
 import CircleButton from "@/ui/elements/circle-button";
 import { Controller } from "@/ui/modules/controller/controller";
-import { useDojo } from "@bibliothecadao/react";
 import { useEntityQuery } from "@dojoengine/react";
 import { Has } from "@dojoengine/recs";
+import { useDojo } from "@frontboat/react";
 
 import { useCallback, useMemo } from "react";
 import { social } from "../../components/navigation/config";

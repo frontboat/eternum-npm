@@ -1,26 +1,26 @@
-import { type SetupResult } from "@bibliothecadao/dojo";
-import { divideByPrecision, getAddressName, getHyperstructureProgress } from "@bibliothecadao/eternum";
-import {
-  BiomeIdToType,
-  BiomeType,
-  type HexPosition,
-  type ID,
-  RealmLevels,
-  StructureType,
-  TileOccupier,
-  type TroopTier,
-  type TroopType,
-} from "@bibliothecadao/types";
 import { type Component, defineComponentSystem, getComponentValue, isComponentUpdate } from "@dojoengine/recs";
 import { getEntityIdFromKeys } from "@dojoengine/utils";
+import { type SetupResult } from "@frontboat/dojo";
+import { divideByPrecision, getAddressName, getHyperstructureProgress } from "@frontboat/eternum";
+import {
+    BiomeIdToType,
+    BiomeType,
+    type HexPosition,
+    type ID,
+    RealmLevels,
+    StructureType,
+    TileOccupier,
+    type TroopTier,
+    type TroopType,
+} from "@frontboat/types";
 import { PROGRESS_FINAL_THRESHOLD, PROGRESS_HALF_THRESHOLD } from "../scenes/constants";
 import {
-  type ArmySystemUpdate,
-  type BuildingSystemUpdate,
-  ExplorerRewardSystemUpdate,
-  StructureProgress,
-  type StructureSystemUpdate,
-  type TileSystemUpdate,
+    type ArmySystemUpdate,
+    type BuildingSystemUpdate,
+    ExplorerRewardSystemUpdate,
+    StructureProgress,
+    type StructureSystemUpdate,
+    type TileSystemUpdate,
 } from "../types";
 
 export const getExplorerInfoFromTileOccupier = (

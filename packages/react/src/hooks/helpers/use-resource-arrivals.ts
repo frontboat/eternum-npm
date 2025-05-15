@@ -1,6 +1,6 @@
-import { ClientComponents, ID, Resource, ResourceArrivalInfo, ResourcesIds } from "@bibliothecadao/types";
 import { useEntityQuery } from "@dojoengine/react";
 import { ComponentValue, Has, HasValue, getComponentValue } from "@dojoengine/recs";
+import { ClientComponents, ID, Resource, ResourceArrivalInfo, ResourcesIds } from "@frontboat/types";
 import { useDojo } from "../";
 
 export const useArrivalsByStructure = (structureEntityId: ID) => {

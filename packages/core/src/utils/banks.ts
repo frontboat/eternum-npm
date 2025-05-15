@@ -1,5 +1,5 @@
-import { ClientComponents, EntityType, ID, StructureType } from "@bibliothecadao/types";
 import { Entity, getComponentValue, getComponentValueStrict, HasValue, runQuery } from "@dojoengine/recs";
+import { ClientComponents, EntityType, ID, StructureType } from "@frontboat/types";
 import { configManager } from "../managers";
 import { calculateDistance, getEntityIdFromKeys } from "./utils";
 

@@ -1,8 +1,8 @@
 import { BuildingThumbs } from "@/ui/config";
-import { configManager, getEntityIdFromKeys } from "@bibliothecadao/eternum";
-import { useDojo } from "@bibliothecadao/react";
-import { RealmInfo as RealmInfoType, ResourcesIds } from "@bibliothecadao/types";
 import { getComponentValue } from "@dojoengine/recs";
+import { configManager, getEntityIdFromKeys } from "@frontboat/eternum";
+import { useDojo } from "@frontboat/react";
+import { RealmInfo as RealmInfoType, ResourcesIds } from "@frontboat/types";
 import { SparklesIcon } from "lucide-react";
 import { useMemo, useState } from "react";
 import { BuildingsList } from "./buildings-list";

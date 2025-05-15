@@ -3,9 +3,9 @@ import { useUIStore } from "@/hooks/store/use-ui-store";
 import { BUILDING_IMAGES_PATH } from "@/ui/config";
 import Button from "@/ui/elements/button";
 import { ResourceIcon } from "@/ui/elements/resource-icon";
-import { getEntityIdFromKeys, getRealmInfo, TileManager, toHexString } from "@bibliothecadao/eternum";
-import { Building, isFoodBuilding, isMilitaryBuilding, isResourceBuilding, ResourcesIds } from "@bibliothecadao/types";
-import { useBuildings, useDojo } from "@bibliothecadao/react";
+import { getEntityIdFromKeys, getRealmInfo, TileManager, toHexString } from "@frontboat/eternum";
+import { useBuildings, useDojo } from "@frontboat/react";
+import { Building, isFoodBuilding, isMilitaryBuilding, isResourceBuilding, ResourcesIds } from "@frontboat/types";
 import clsx from "clsx";
 import { useMemo, useState } from "react";
 

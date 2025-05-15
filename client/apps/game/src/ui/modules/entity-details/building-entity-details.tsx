@@ -6,20 +6,20 @@ import { ProductionModal } from "@/ui/components/production/production-modal";
 import Button from "@/ui/elements/button";
 import { RealmVillageDetails } from "@/ui/modules/entity-details/realm/realm-details";
 import { getEntityIdFromKeys } from "@/ui/utils/utils";
-import { ResourceIdToMiningType, TileManager, configManager, getEntityInfo } from "@bibliothecadao/eternum";
-import { useDojo, usePlayerStructures, useResourceManager } from "@bibliothecadao/react";
-import {
-  BUILDINGS_CENTER,
-  BuildingType,
-  ContractAddress,
-  ID,
-  ResourceMiningTypes,
-  ResourcesIds,
-  StructureType,
-  getProducedResource,
-} from "@bibliothecadao/types";
 import { useComponentValue } from "@dojoengine/react";
 import { getComponentValue } from "@dojoengine/recs";
+import { ResourceIdToMiningType, TileManager, configManager, getEntityInfo } from "@frontboat/eternum";
+import { useDojo, usePlayerStructures, useResourceManager } from "@frontboat/react";
+import {
+    BUILDINGS_CENTER,
+    BuildingType,
+    ContractAddress,
+    ID,
+    ResourceMiningTypes,
+    ResourcesIds,
+    StructureType,
+    getProducedResource,
+} from "@frontboat/types";
 import { PauseIcon, PlayIcon, PlusIcon, Trash2Icon } from "lucide-react";
 import { useCallback, useEffect, useMemo, useState } from "react";
 

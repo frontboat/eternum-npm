@@ -1,13 +1,13 @@
 import { getBlockTimestamp } from "@/shared/hooks/use-block-timestamp";
 import {
-  configManager,
-  divideByPrecision,
-  getBalance,
-  getEntityIdFromKeys,
-  getRealmInfo,
-} from "@bibliothecadao/eternum";
-import { getLevelName } from "@bibliothecadao/types";
-import { useDojo } from "@bibliothecadao/react";
+    configManager,
+    divideByPrecision,
+    getBalance,
+    getEntityIdFromKeys,
+    getRealmInfo,
+} from "@frontboat/eternum";
+import { useDojo } from "@frontboat/react";
+import { getLevelName } from "@frontboat/types";
 import { useMemo } from "react";
 
 export interface UpgradeCost {

@@ -1,8 +1,8 @@
 import { Position } from "@/types/position";
-import { useQuery } from "@bibliothecadao/react";
-import { ClientComponents, ID } from "@bibliothecadao/types";
 import { getComponentValue } from "@dojoengine/recs";
 import { getEntityIdFromKeys } from "@dojoengine/utils";
+import { useQuery } from "@frontboat/react";
+import { ClientComponents, ID } from "@frontboat/types";
 import { useUIStore } from "../store/use-ui-store";
 
 export const useNavigateToHexView = () => {

@@ -1,10 +1,10 @@
 import { useMinigameStore } from "@/hooks/store/use-minigame-store";
 import { QuestRealm } from "@/ui/components/quest/quest-realm-component";
 import { useGetQuests } from "@/ui/components/quest/quest-utils";
-import { getArmy, getEntityIdFromKeys } from "@bibliothecadao/eternum";
-import { useDojo, usePlayerStructures } from "@bibliothecadao/react";
-import { ClientComponents, ContractAddress, ID, StructureType } from "@bibliothecadao/types";
 import { ComponentValue, getComponentValue } from "@dojoengine/recs";
+import { getArmy, getEntityIdFromKeys } from "@frontboat/eternum";
+import { useDojo, usePlayerStructures } from "@frontboat/react";
+import { ClientComponents, ContractAddress, ID, StructureType } from "@frontboat/types";
 import { useMemo } from "react";
 
 export const RealmsContainer = ({

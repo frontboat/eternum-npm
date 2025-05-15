@@ -1,4 +1,4 @@
-import { ResourcesIds } from "@bibliothecadao/types";
+import { ResourcesIds } from "@frontboat/types";
 
 export interface ProductionBuilding {
   category: string;

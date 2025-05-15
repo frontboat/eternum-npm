@@ -1,9 +1,9 @@
 import { useMinigameStore } from "@/hooks/store/use-minigame-store";
-import { formatTime, getEntityIdFromKeys } from "@bibliothecadao/eternum";
-import { useDojo } from "@bibliothecadao/react";
-import { getQuestFromToriiClient } from "@bibliothecadao/torii-client";
-import { ClientComponents, ID } from "@bibliothecadao/types";
 import { ComponentValue, getComponentValue } from "@dojoengine/recs";
+import { formatTime, getEntityIdFromKeys } from "@frontboat/eternum";
+import { useDojo } from "@frontboat/react";
+import { getQuestFromToriiClient } from "@frontboat/torii-client";
+import { ClientComponents, ID } from "@frontboat/types";
 import { useEffect, useMemo, useState } from "react";
 import { addAddressPadding } from "starknet";
 import { QuestReward } from "../../resources/quest-reward";

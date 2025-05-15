@@ -1,12 +1,12 @@
 import {
-  getGuildsFromTorii,
-  getHyperstructureFromTorii,
-  getMarketEventsFromTorii,
-  getMarketFromTorii,
-  getQuestsFromTorii,
+    getGuildsFromTorii,
+    getHyperstructureFromTorii,
+    getMarketEventsFromTorii,
+    getMarketFromTorii,
+    getQuestsFromTorii,
 } from "@/dojo/queries";
 import { fetchHyperstructures } from "@/services/api";
-import { useDojo } from "@bibliothecadao/react";
+import { useDojo } from "@frontboat/react";
 import { useEffect, useState } from "react";
 import { Subscription, useSyncStore } from "../store/use-sync-store";
 import { useUIStore } from "../store/use-ui-store";

@@ -1,7 +1,7 @@
 import { MarketResource } from "@/ui/components/trading/market-order-panel";
-import { ID, MarketInterface, RESOURCE_TIERS, ResourcesIds } from "@bibliothecadao/types";
-import { MarketManager } from "@bibliothecadao/eternum";
-import { useDojo } from "@bibliothecadao/react";
+import { MarketManager } from "@frontboat/eternum";
+import { useDojo } from "@frontboat/react";
+import { ID, MarketInterface, RESOURCE_TIERS, ResourcesIds } from "@frontboat/types";
 import { useMemo } from "react";
 
 export const MarketResourceSidebar = ({

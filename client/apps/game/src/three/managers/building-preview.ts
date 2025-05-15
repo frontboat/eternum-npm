@@ -2,8 +2,8 @@ import { useUIStore } from "@/hooks/store/use-ui-store";
 import { gltfLoader } from "@/three/helpers/utils";
 import { buildingModelPaths, BUILDINGS_GROUPS, PREVIEW_BUILD_COLOR_VALID } from "@/three/scenes/constants";
 import { HoverSound } from "@/three/sound/hover-sound";
-import { ResourceIdToMiningType } from "@bibliothecadao/eternum";
-import { BuildingType, ResourceMiningTypes, ResourcesIds } from "@bibliothecadao/types";
+import { ResourceIdToMiningType } from "@frontboat/eternum";
+import { BuildingType, ResourceMiningTypes, ResourcesIds } from "@frontboat/types";
 import * as THREE from "three";
 
 export class BuildingPreview {

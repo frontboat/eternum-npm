@@ -2,9 +2,9 @@ import { soundSelector, useUiSounds } from "@/hooks/helpers/use-ui-sound";
 import { ConfirmationPopup } from "@/ui/components/bank/confirmation-popup";
 import Button from "@/ui/elements/button";
 import { getBlockTimestamp } from "@/utils/timestamp";
-import { ResourceArrivalManager } from "@bibliothecadao/eternum";
-import { useDojo } from "@bibliothecadao/react";
-import { ResourceArrivalInfo } from "@bibliothecadao/types";
+import { ResourceArrivalManager } from "@frontboat/eternum";
+import { useDojo } from "@frontboat/react";
+import { ResourceArrivalInfo } from "@frontboat/types";
 import { AlertCircle } from "lucide-react";
 import { useState } from "react";
 

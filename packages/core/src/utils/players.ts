@@ -1,11 +1,11 @@
-import {
-  type ClientComponents,
-  type ContractAddress,
-  type Player,
-  type PlayerInfo,
-  StructureType,
-} from "@bibliothecadao/types";
 import { Has, HasValue, getComponentValue, runQuery } from "@dojoengine/recs";
+import {
+    type ClientComponents,
+    type ContractAddress,
+    type Player,
+    type PlayerInfo,
+    StructureType,
+} from "@frontboat/types";
 import { getGuild } from "./guild";
 import { calculatePlayerSharePercentage } from "./leaderboard";
 

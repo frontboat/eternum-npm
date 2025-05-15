@@ -1,6 +1,6 @@
-import { Direction, getNeighborHexes, ID, Steps } from "@bibliothecadao/types";
 import { AndComposeClause, MemberClause } from "@dojoengine/sdk";
 import { Clause, PatternMatching, Query, ToriiClient } from "@dojoengine/torii-wasm";
+import { Direction, getNeighborHexes, ID, Steps } from "@frontboat/types";
 import { getStructureFromToriiEntity } from "../parser";
 import { getResourcesFromToriiEntity } from "../parser/resources";
 

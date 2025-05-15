@@ -1,5 +1,5 @@
 import { SortInterface } from "@/ui/elements/sort-button"; // Assuming SortInterface is exported from here
-import { ContractAddress, PlayerInfo } from "@bibliothecadao/types";
+import { ContractAddress, PlayerInfo } from "@frontboat/types";
 import { create } from "zustand";
 
 interface SocialState {

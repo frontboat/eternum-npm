@@ -1,5 +1,5 @@
 import { Headline } from "@/ui/elements/headline";
-import { configManager } from "@bibliothecadao/eternum";
+import { configManager } from "@frontboat/eternum";
 
 export const Combat = () => {
   const troopConfig = configManager.getTroopConfig();

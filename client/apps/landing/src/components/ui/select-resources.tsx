@@ -1,6 +1,6 @@
 // import { useResourceBalance } from "@/hooks/helpers/use-resources";
-// import { divideByPrecision } from "@bibliothecadao/eternum";
-// import { ID, resources } from "@bibliothecadao/types";
+// import { divideByPrecision } from "@frontboat/eternum";
+// import { ID, resources } from "@frontboat/types";
 // import { XIcon } from "lucide-react";
 // import { useEffect, useMemo } from "react";
 // import { Button } from "./button";

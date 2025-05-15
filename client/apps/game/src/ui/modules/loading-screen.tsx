@@ -1,6 +1,6 @@
 import { useSyncStore } from "@/hooks/store/use-sync-store";
 import { OnboardingContainer } from "@/ui/layouts/onboarding";
-import { useSeasonStart } from "@bibliothecadao/react";
+import { useSeasonStart } from "@frontboat/react";
 import { useEffect, useState } from "react";
 import "../../index.css";
 export const LoadingScreen = ({ backgroundImage }: { backgroundImage: string }) => {

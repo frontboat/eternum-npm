@@ -1,10 +1,10 @@
 import Button from "@/ui/elements/button";
 import { formatNumber } from "@/ui/utils/utils";
-import { getEntityIdFromKeys, getGuardsByStructure } from "@bibliothecadao/eternum";
-import { useDojo } from "@bibliothecadao/react";
-import { DEFENSE_NAMES, ID, getDirectionBetweenAdjacentHexes } from "@bibliothecadao/types";
 import { useComponentValue } from "@dojoengine/react";
 import { getComponentValue } from "@dojoengine/recs";
+import { getEntityIdFromKeys, getGuardsByStructure } from "@frontboat/eternum";
+import { useDojo } from "@frontboat/react";
+import { DEFENSE_NAMES, ID, getDirectionBetweenAdjacentHexes } from "@frontboat/types";
 import { useMemo, useState } from "react";
 
 export enum TransferDirection {

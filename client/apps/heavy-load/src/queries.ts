@@ -1,4 +1,4 @@
-import { StructureType } from "@bibliothecadao/eternum";
+import { StructureType } from "@frontboat/eternum";
 import chalk from "chalk";
 import type { Account } from "starknet";
 import { CONFIG } from "./config";

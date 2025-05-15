@@ -1,6 +1,6 @@
 import { MinesMaterialsParams, PREVIEW_BUILD_COLOR_INVALID } from "@/three/scenes/constants";
 import { GRAPHICS_SETTING, GraphicsSettings } from "@/ui/config";
-import { ResourcesIds, StructureType } from "@bibliothecadao/types";
+import { ResourcesIds, StructureType } from "@frontboat/types";
 import * as THREE from "three";
 import { AnimationClip, AnimationMixer } from "three";
 

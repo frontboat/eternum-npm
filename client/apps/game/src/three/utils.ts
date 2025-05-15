@@ -1,5 +1,5 @@
-import { calculateDistance } from "@bibliothecadao/eternum";
-import { HexPosition, Position } from "@bibliothecadao/types";
+import { calculateDistance } from "@frontboat/eternum";
+import { HexPosition, Position } from "@frontboat/types";
 import * as THREE from "three";
 import { HEX_SIZE } from "./scenes/constants";
 

@@ -1,5 +1,5 @@
 import { getComponentValue } from "@dojoengine/recs";
-import { ResourcesIds, ClientComponents } from "@bibliothecadao/types";
+import { ClientComponents, ResourcesIds } from "@frontboat/types";
 import { configManager } from "../managers";
 import { divideByPrecision, getEntityIdFromKeys } from "./utils";
 

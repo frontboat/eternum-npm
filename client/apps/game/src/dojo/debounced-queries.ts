@@ -1,11 +1,11 @@
-import { HexPosition, ID } from "@bibliothecadao/types";
 import { Component, Metadata, Schema } from "@dojoengine/recs";
 import { ToriiClient } from "@dojoengine/torii-client";
+import { HexPosition, ID } from "@frontboat/types";
 import {
-  getBuildingsFromTorii,
-  getEntitiesFromTorii,
-  getOwnedArmiesFromTorii,
-  getTilesForPositionsFromTorii,
+    getBuildingsFromTorii,
+    getEntitiesFromTorii,
+    getOwnedArmiesFromTorii,
+    getTilesForPositionsFromTorii,
 } from "./queries";
 
 // Queue class to manage requests

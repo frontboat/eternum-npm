@@ -4,15 +4,15 @@ import { Button } from "@/shared/ui/button";
 import { Card, CardContent } from "@/shared/ui/card";
 import { SwapInput } from "@/widgets/swap-input";
 import {
-  configManager,
-  divideByPrecision,
-  getBalance,
-  getClosestBank,
-  MarketManager,
-  multiplyByPrecision,
-} from "@bibliothecadao/eternum";
-import { ContractAddress, resources, ResourcesIds } from "@bibliothecadao/types";
-import { useDojo } from "@bibliothecadao/react";
+    configManager,
+    divideByPrecision,
+    getBalance,
+    getClosestBank,
+    MarketManager,
+    multiplyByPrecision,
+} from "@frontboat/eternum";
+import { useDojo } from "@frontboat/react";
+import { ContractAddress, resources, ResourcesIds } from "@frontboat/types";
 import { useSearch } from "@tanstack/react-router";
 import { ArrowDownUp } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";

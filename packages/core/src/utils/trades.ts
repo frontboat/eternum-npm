@@ -1,13 +1,13 @@
-import {
-  ClientComponents,
-  ContractComponents,
-  ID,
-  MarketInterface,
-  Resource,
-  ResourcesIds,
-} from "@bibliothecadao/types";
 import { Entity, getComponentValue } from "@dojoengine/recs";
 import { getEntityIdFromKeys } from "@dojoengine/utils";
+import {
+    ClientComponents,
+    ContractComponents,
+    ID,
+    MarketInterface,
+    Resource,
+    ResourcesIds,
+} from "@frontboat/types";
 import { shortString } from "starknet";
 import { ResourceManager, getRealmNameById } from "..";
 

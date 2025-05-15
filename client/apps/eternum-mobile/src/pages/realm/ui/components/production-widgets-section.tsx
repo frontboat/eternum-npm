@@ -1,8 +1,8 @@
 import { getBlockTimestamp } from "@/shared/hooks/use-block-timestamp";
 import { ProductionWidget } from "@/widgets/production-widget";
 import { LaborBuilding } from "@/widgets/production-widget/model/types";
-import { Building, getProducedResource, RealmInfo } from "@bibliothecadao/types";
-import { useBuildings, useResourceManager } from "@bibliothecadao/react";
+import { useBuildings, useResourceManager } from "@frontboat/react";
+import { Building, getProducedResource, RealmInfo } from "@frontboat/types";
 import { useMemo } from "react";
 
 interface ProductionWidgetsSectionProps {

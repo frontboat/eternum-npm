@@ -1,8 +1,8 @@
 import { useUIStore } from "@/hooks/store/use-ui-store";
 import { ModalContainer } from "@/ui/components/modal-container";
 import { LoadingAnimation } from "@/ui/elements/loading-animation";
-import { usePlayerOwnedRealmsInfo, usePlayerOwnedVillagesInfo } from "@bibliothecadao/react";
-import { ID, RealmInfo, ResourcesIds } from "@bibliothecadao/types";
+import { usePlayerOwnedRealmsInfo, usePlayerOwnedVillagesInfo } from "@frontboat/react";
+import { ID, RealmInfo, ResourcesIds } from "@frontboat/types";
 import { Suspense, lazy, useCallback, useMemo, useState } from "react";
 
 const ProductionSidebar = lazy(() =>

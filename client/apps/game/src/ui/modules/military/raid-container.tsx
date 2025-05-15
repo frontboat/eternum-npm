@@ -4,29 +4,29 @@ import Button from "@/ui/elements/button";
 import { ResourceIcon } from "@/ui/elements/resource-icon";
 import { formatStringNumber } from "@/ui/utils/utils";
 import { getBlockTimestamp } from "@/utils/timestamp";
-import {
-  Biome,
-  CombatSimulator,
-  configManager,
-  divideByPrecision,
-  getArmy,
-  getEntityIdFromKeys,
-  getRemainingCapacityInKg,
-  multiplyByPrecision,
-  RaidSimulator,
-  StaminaManager,
-} from "@bibliothecadao/eternum";
-import { useDojo } from "@bibliothecadao/react";
-import {
-  CapacityConfig,
-  ContractAddress,
-  getDirectionBetweenAdjacentHexes,
-  ID,
-  resources,
-  TroopTier,
-  TroopType,
-} from "@bibliothecadao/types";
 import { getComponentValue } from "@dojoengine/recs";
+import {
+    Biome,
+    CombatSimulator,
+    configManager,
+    divideByPrecision,
+    getArmy,
+    getEntityIdFromKeys,
+    getRemainingCapacityInKg,
+    multiplyByPrecision,
+    RaidSimulator,
+    StaminaManager,
+} from "@frontboat/eternum";
+import { useDojo } from "@frontboat/react";
+import {
+    CapacityConfig,
+    ContractAddress,
+    getDirectionBetweenAdjacentHexes,
+    ID,
+    resources,
+    TroopTier,
+    TroopType,
+} from "@frontboat/types";
 import { useMemo, useState } from "react";
 import { AttackTarget } from "./attack-container";
 import { formatTypeAndBonuses } from "./combat-utils";

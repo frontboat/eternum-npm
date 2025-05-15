@@ -1,20 +1,20 @@
 import { LoadingStateKey, WorldSlice } from "@/shared/store/slices/world-loading-slice";
-import { SetupResult } from "@bibliothecadao/dojo";
-import {
-  ADMIN_BANK_ENTITY_ID,
-  BUILDING_CATEGORY_POPULATION_CONFIG_ID,
-  ClientComponents,
-  HYPERSTRUCTURE_CONFIG_ID,
-  PlayerStructure,
-  WORLD_CONFIG_ID,
-} from "@bibliothecadao/types";
 import { getEntities, getEvents, setEntities } from "@dojoengine/state";
 import { Clause, ToriiClient } from "@dojoengine/torii-client";
+import { SetupResult } from "@frontboat/dojo";
+import {
+    ADMIN_BANK_ENTITY_ID,
+    BUILDING_CATEGORY_POPULATION_CONFIG_ID,
+    ClientComponents,
+    HYPERSTRUCTURE_CONFIG_ID,
+    PlayerStructure,
+    WORLD_CONFIG_ID,
+} from "@frontboat/types";
 import { debounce } from "lodash";
 import {
-  debouncedGetDonkeysAndArmiesFromTorii,
-  debouncedGetEntitiesFromTorii,
-  debouncedGetMarketFromTorii,
+    debouncedGetDonkeysAndArmiesFromTorii,
+    debouncedGetEntitiesFromTorii,
+    debouncedGetMarketFromTorii,
 } from "./debounced-queries";
 
 const handleVisualOverrides = (entityBatch: Record<string, any>, components: ClientComponents, entity: string) => {

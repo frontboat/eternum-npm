@@ -1,4 +1,4 @@
-// import { ADMIN_BANK_ENTITY_ID, ID, Resource } from "@bibliothecadao/types";
+// import { ADMIN_BANK_ENTITY_ID, ID, Resource } from "@frontboat/types";
 
 // import { useQueries, useQuery } from "@tanstack/react-query";
 // import { useMemo } from "react";

@@ -1,13 +1,13 @@
 import {
-  BiomeType,
-  BuildingType,
-  HexPosition,
-  ID,
-  ResourcesIds,
-  StructureType,
-  TroopTier,
-  TroopType,
-} from "@bibliothecadao/types";
+    BiomeType,
+    BuildingType,
+    HexPosition,
+    ID,
+    ResourcesIds,
+    StructureType,
+    TroopTier,
+    TroopType,
+} from "@frontboat/types";
 import { StructureProgress } from "./common";
 
 export type ArmySystemUpdate = {

@@ -1,4 +1,4 @@
-// import { getRealmNameById } from "@bibliothecadao/eternum";
+// import { getRealmNameById } from "@frontboat/eternum";
 // import { useAccount } from "@starknet-react/core";
 // import { useQuery } from "@tanstack/react-query";
 // import { useMemo } from "react";
